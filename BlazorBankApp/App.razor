@@ -1,0 +1,15 @@
+﻿<!-- This specifies the assembly that contains the application’s routable components where the Program class is located -->
+<Router AppAssembly="@typeof(Program).Assembly">
+    <!-- This block is executed when a route is found -->
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>
+        <FocusOnNavigate RouteData="@routeData" Selector="h1"/>
+    </Found>
+    <!-- This block is executed when a route is not found for example URL of login/test-->
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>

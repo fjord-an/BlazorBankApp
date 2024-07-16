@@ -1,0 +1,65 @@
+﻿@using BlazorBankApp.Services
+@inject UserSessionService UserSessionService
+@inject NavigationManager Navigation
+<!-- Navigation menu -->
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorBankApp</a>
+    </div>
+</div>
+
+<nav class="flex-column nav-scrollable">
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            Home
+        </NavLink>
+    </div>
+        
+        
+        <!-- we check if he user session is not logged in  we display the login and singup navigation links -->
+        @if (!UserSessionService.IsLoggedIn)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="login">
+                    <span class="bi bi-box-arrow-in-right" aria-hidden="true"></span> Login
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="signup">
+                    <span class="bi bi-pencil-square" aria-hidden="true"></span> Signup
+                </NavLink>
+            </div>
+        }
+        <!-- we check if the user session is logged in so we display the bank and logout Navigation Links -->
+        @if (UserSessionService.IsLoggedIn)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="bank">
+                    <span class="bi bi-bank" aria-hidden="true"></span> Bank
+                </NavLink>
+            </div>
+        <!-- onClick handler to handle the logout method -->
+            <div class="nav-item px-3">
+                <button class="btn btn-link nav-link" @onclick="Logout">
+                    <span class="bi bi-box-arrow-right" aria-hidden="true"></span> Logout
+                </button>
+            </div>
+        }
+    </nav>
+
+
+@code {
+    
+    // this private logout method is created to handle the onClick event handler,
+    //  once we create this method we can directly use it in onClick without calling this method.
+    private void Logout()
+    {
+        UserSessionService.Logout();
+        Navigation.NavigateTo("/");
+        StateHasChanged();
+        // StateHasChanged re-render the component (pages) to check if the UI has changed if so it update the current state.
+    }
+
+  
+
+}

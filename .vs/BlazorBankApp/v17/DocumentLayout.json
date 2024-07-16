@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|g:\\madarek\\ali\\study\\torrens\\subjects\\ise102 introduction to software engineering\\3\\webpage\\v5\\blazorbankapp\\blazorbankapp\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\services\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\services\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\pages\\bank.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\pages\\bank.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\blazorbankapp\\services\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1782C126-A5CF-4AD4-A03A-B12FF9CCF1CD}|BlazorBankApp\\BlazorBankApp.csproj|solutionrelative:blazorbankapp\\services\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Signup.razor",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Pages\\Signup.razor",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Pages\\Signup.razor",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Pages\\Signup.razor",
+              "RelativeToolTip": "BlazorBankApp\\Pages\\Signup.razor",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T01:33:33.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Pages\\Login.razor",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorBankApp\\Pages\\Login.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T05:04:41.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Models\\User.cs",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Models\\User.cs",
+              "RelativeToolTip": "BlazorBankApp\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T01:40:52.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Program.cs",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Program.cs",
+              "RelativeToolTip": "BlazorBankApp\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T05:09:54.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSessionService.cs",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Services\\UserSessionService.cs",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Services\\UserSessionService.cs",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Services\\UserSessionService.cs",
+              "RelativeToolTip": "BlazorBankApp\\Services\\UserSessionService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T05:08:50.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Layout\\NavMenu.razor",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorBankApp\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T05:06:06.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Layout\\MainLayout.razor",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorBankApp\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T05:05:57.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bank.razor",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Pages\\Bank.razor",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Pages\\Bank.razor",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Pages\\Bank.razor",
+              "RelativeToolTip": "BlazorBankApp\\Pages\\Bank.razor",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAACQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T05:04:09.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BankService.cs",
+              "DocumentMoniker": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Services\\BankService.cs",
+              "RelativeDocumentMoniker": "BlazorBankApp\\Services\\BankService.cs",
+              "ToolTip": "G:\\Madarek\\Ali\\Study\\Torrens\\Subjects\\ISE102 Introduction to Software Engineering\\3\\WebPage\\V5\\BlazorBankApp\\BlazorBankApp\\Services\\BankService.cs",
+              "RelativeToolTip": "BlazorBankApp\\Services\\BankService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T05:03:11.74Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
