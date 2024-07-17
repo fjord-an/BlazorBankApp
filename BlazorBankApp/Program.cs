@@ -19,7 +19,7 @@ public class Program
 
         // Register the BankService and UserSessionService
         builder.Services.AddScoped<BankService>();
-        builder.Services.AddScoped<UserSessionService>();
+        builder.Services.AddSingleton<UserSessionService>();
 
         await builder.Build().RunAsync();
     }

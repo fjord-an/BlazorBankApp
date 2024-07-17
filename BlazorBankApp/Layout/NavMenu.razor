@@ -1,6 +1,8 @@
 ﻿@using BlazorBankApp.Services
 @inject UserSessionService UserSessionService
 @inject NavigationManager Navigation
+@implements IDisposable
+
 <!-- Navigation menu -->
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
@@ -60,6 +62,16 @@
         // StateHasChanged re-render the component (pages) to check if the UI has changed if so it update the current state.
     }
 
-  
+    // the methods below are used to subscribe to the OnLoginStateChanged event in the UserSessionService class.
+    // The event is updated according to the user's session status. the NavMenu component is then updated when the user logs in or out, displaying the appropriate navigation links.
+    // The IDisposable interface is implemented to unsubscribe from the event when the component is disposed of.
+    protected override void OnInitialized()
+    {
+        UserSessionService.OnLoginStateChanged += StateHasChanged;
+    }
 
+    public void Dispose()
+    {
+        UserSessionService.OnLoginStateChanged -= StateHasChanged;
+    }
 }

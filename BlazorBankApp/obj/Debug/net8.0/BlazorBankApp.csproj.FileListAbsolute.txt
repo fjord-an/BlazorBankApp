@@ -6184,3 +6184,4 @@ C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\Blaz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\refint\BlazorBankApp.dll
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\BlazorBankApp.pdb
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\ref\BlazorBankApp.dll
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\BlazorBankApp.sourcelink.json
