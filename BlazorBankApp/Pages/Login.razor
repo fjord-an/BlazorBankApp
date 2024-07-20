@@ -76,7 +76,7 @@ else
             {
                 // Call the Login method from UserSessionService to set the user as logged in
                 UserSessionService.Login(user);
-                // Navigate to the /bank page
+                // Navigate to the /bank page using the built-in razor NavigationManager component which is injected at the top of the page.
                 Navigation.NavigateTo("/bank");
                 loginAttempts = 0;
                 loginFailed = false;

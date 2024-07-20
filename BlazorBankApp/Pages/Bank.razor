@@ -1,19 +1,20 @@
 <!-- Pages/Bank.razor -->
 @page "/bank"
-
-<!-- allowing the bank component to access the methods and properties of BankService and UserSessionService classes.
-and we assign them to local varibales.
+<!-- allowing the bank component to access the methods and properties of BankService and UserSessionService classes through dependency injection.
 -->
 @inject BankService BankService
 @inject UserSessionService UserSessionService
+<!-- Dependency injection is a technique in which an object receives other objects that it depends on. This results in loosely coupled components, and shared instances of services.
+ In Blazor, we can inject services into components, pages, and other classes. It is a simplified way of injecting an object into this component through a constructor, which blazor does behind the scenes
+ Julio Casal (Director). (2024, March 27, 2:32). Blazor Full Course For Beginners [Video recording]. https://www.youtube.com/watch?v=RBVIclt4sOo
+ -->
 
 <!-- Check conditionally to show the content based on the user's login status -->
 @if (UserSessionService.IsLoggedIn) // if the user is exist then show below contents
 {
-    // get the currentUser username from the class of UserSessionService which we aleady injected from the top of this bank page component.
-    <div>
+    // The currentUser username from the class of UserSessionService, injected from the top of this bank page component.
+    //Blazor's injection system allows us to inject services into components, pages, and other classes. It is the equivalent to using a constructor to inject dependencies into the component.
         <h3>Welcome, @UserSessionService.CurrentUser.Username</h3>
-    </div>
     // displaying the current balance in the bank component
     <div class="form-group">
         <label for="balance">Current Balance</label>

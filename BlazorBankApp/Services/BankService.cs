@@ -1,9 +1,7 @@
 using BlazorBankApp.Models;
 
 namespace BlazorBankApp.Services;
-// Services/BankService.cs
-using System.Collections.Generic;
-using System.Linq;
+
 public class BankService
 {
     // List to store user data
@@ -52,7 +50,7 @@ public class BankService
     // This method calcuate the Deposit
     public void Deposit(double amount)
     {
-        // we check if amount as argument is greater than 0 then the we add value of the balance to the amount.
+        // we check if amount as argument is greater than 0 then we add value of the balance to the amount.
         if (amount > 0)
         {
             balance += amount;

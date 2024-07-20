@@ -12,7 +12,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="bin\Debug\net8.0\" />
       <Folder Include="wwwroot\Images\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net8.0\.gitignore" />
     </ItemGroup>
 
 </Project>

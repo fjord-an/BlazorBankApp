@@ -2,6 +2,8 @@
 @inject UserSessionService UserSessionService
 @inject NavigationManager Navigation
 @implements IDisposable
+<!-- we are using the IDisposable interface to change OnLoginStateChanged event when the UserSessionService component is disposed of. -->
+<!-- the IDisposable interface "Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources." -->
 
 <!-- Navigation menu -->
 <div class="top-row ps-3 navbar navbar-dark">
@@ -65,12 +67,12 @@
     // the methods below are used to subscribe to the OnLoginStateChanged event in the UserSessionService class.
     // The event is updated according to the user's session status. the NavMenu component is then updated when the user logs in or out, displaying the appropriate navigation links.
     // The IDisposable interface is implemented to unsubscribe from the event when the component is disposed of.
-    protected override void OnInitialized()
+    protected override void OnInitialized() // OnInitialized method is called each time the component is rendered
     {
         UserSessionService.OnLoginStateChanged += StateHasChanged;
     }
 
-    public void Dispose()
+    public void Dispose() // Dispose method is called when the component is disposed of
     {
         UserSessionService.OnLoginStateChanged -= StateHasChanged;
     }
