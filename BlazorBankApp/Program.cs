@@ -17,8 +17,9 @@ public class Program
 
         builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-        // Register the BankService and UserSessionService
+        // Register the Controller Services with the Dependency Injection container to be used in the Razor components
         builder.Services.AddScoped<BankService>();
+        builder.Services.AddSingleton<AccountService>();
         builder.Services.AddSingleton<UserSessionService>();
 
         await builder.Build().RunAsync();
