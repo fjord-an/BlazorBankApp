@@ -1,13 +1,13 @@
 @page "/login"
-@using BlazorBankApp.Models
-@using BlazorBankApp.Services
-@inject BankService BankService
+
+<!-- import the required dependencies for the login page -->
+@inject AccountService Credentials
 @inject UserSessionService UserSessionService
 @inject NavigationManager Navigation
 
 <h3>Login</h3>
 <!-- if isLockedOut true show below message instead of login forms-->
-@if (isLockedOut)
+@if (_isLockedOut)
 {
     <h5 class="text-danger">Too many incorrect attempts. Please try again in 1 minute.</h5>
 }
@@ -15,83 +15,101 @@
 else
 {
     <!-- EditForm component to handle user input and form validation
-    the login model has the User model instance that can handle user properties.
-    -->
-    <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    the login model has the User model instance that can handle user properties. -->
+    <EditForm Model="_loginModel" OnValidSubmit="HandleLogin">
         <!-- Validator for data annotations and validation errors-->
         <DataAnnotationsValidator />
         <ValidationSummary />
 
         <!-- Input fields for user data with bootstrap classes -->
+        <!-- the @bind-Value is used to bind the value of the input field to the property of the login model -->
         <div class="form-group">
             <label for="email">Email</label>
-            <InputText id="email" class="form-control" @bind-Value="loginModel.Email" disabled="@(loginAttempts >= 3)" />
+            <InputText id="email" class="form-control" @bind-Value="_loginModel.Email" disabled="@(_loginAttempts >= 3)" />
         </div>
 
         <div class="form-group">
             <label for="password">Password</label>
-            <InputText id="password" class="form-control" type="password" @bind-Value="loginModel.Password" disabled="@(loginAttempts >= 3)" />
+            <InputText id="password" class="form-control" type="password" @bind-Value="_loginModel.Password" disabled="@(_loginAttempts >= 3)" />
         </div>
 
         <button type="submit" class="btn btn-primary">Login</button>
     </EditForm>
     // check if the login boolean is false show user a message and show the number of attempts.
-    @if (loginFailed)
+    @if (_loginFailed)
     {
         <p class="text-danger">Login failed. Please try again.</p>
-        <h5>Attempt: @loginAttempts of 3</h5>
+        <h5>Attempt: @_loginAttempts of 3</h5>
     }
 }
 
 
-@code {
-    // access to User Model data or User class and create new instance
-    private User loginModel = new User();
-    // create a variable of boolean type to check if login faild or success
-    private bool loginFailed;
+@code { 
+    // The server side code for the login page logic:
+    
+    // initialize a UserInfo Object to store the login model data from the bound fields
+    private readonly UserInfo _loginModel = new()
+    {
+        // Initialise required fields by setting to empty strings (""). This prevents null reference exceptions and creates
+        // an initial object state to be used in the login form.
+        Email = string.Empty,
+        Password = string.Empty
+    };
+    
+     // this variable is used to show or hide the login failed message in the body of the login page.
+    private bool _loginFailed;
 
-    private int loginAttempts = 0;
-    private bool isLockedOut = false;
+    // create variables type to check the number of login attempts
+    private int _loginAttempts;
+    private bool _isLockedOut;
 
+    // this method is used to handle the main logic of checking login.
+    // It must be run asynchronously because it utilizes the Task.Delay method to lock out for 3 failed log in attempts.
     private async void HandleLogin()
     {
         try
         {
-            if (loginAttempts >= 3)
+            if (_loginAttempts >= 3)
             {
-                isLockedOut = true;
-                loginFailed = false;
-                await Task.Delay(TimeSpan.FromMinutes(1));
-                loginAttempts = 0;
-                isLockedOut = false;
+                _isLockedOut = true;
+                _loginFailed = false;
+                await Task.Delay(TimeSpan.FromMinutes(1)); 
+                // create a delay of 1 minute before setting the lockout variables back to allow login
+                _loginAttempts = 0;
+                _isLockedOut = false;
                 StateHasChanged();
-                return;
+                // this method will tell this Login.razor component to re-render, showing the login form again
+                return; 
+                // exit the method to prevent further execution of the login logic
             }
 
-            // we conditionallly check if the user login method which comes from BankService class with method of Login has the user model or user class
-            // and if the email and the password that user input is assign with the user email and passowrd 
-            var user = BankService.Login(loginModel.Email, loginModel.Password);
-            // if is not null or false
-            if (user != null)
+            // Compare the users input with the List of UserInfo in the AccountService instance, injected as: Credentials.
+            // The Method returns True if the users input is a valid email/password match, otherwise False if it does not exist.
+            bool user = Credentials.Login(_loginModel.Email, _loginModel.Password);
+            
+            // if the input was a valid email/password match (not null), execute the following code block
+            if (user)
             {
                 // Call the Login method from UserSessionService to set the user as logged in
-                UserSessionService.Login(user);
-                // Navigate to the /bank page using the built-in razor NavigationManager component which is injected at the top of the page.
+                UserSessionService.Login(_loginModel);
+                // Navigate to /bank page using the Razor NavigationManager injected into this component
                 Navigation.NavigateTo("/bank");
-                loginAttempts = 0;
-                loginFailed = false;
+                // reset the login attempts and login failed boolean
+                _loginAttempts = 0;
+                _loginFailed = false;
             }
-            // otherwise the user false and it stay on the same page of the login.
+            // otherwise, add an incorrect login attempt on the same page of the login.
             else
             {
-                loginAttempts++;
-                loginFailed = true;
+                _loginAttempts++;
+                _loginFailed = true;
             }
         }catch (Exception ex)
         {
+            // if an exception occurs, log the error message to the console and set the login failed boolean to true
             Console.WriteLine($"Login error: {ex.Message}");
-            loginFailed = true;
+            _loginFailed = true;
         }
-        StateHasChanged();
+        StateHasChanged(); // re-render this razor component
     }
 }

@@ -1,7 +1,5 @@
-<!-- Pages/Bank.razor -->
 @page "/bank"
-<!-- allowing the bank component to access the methods and properties of BankService and UserSessionService classes through dependency injection.
--->
+<!-- allowing the bank component to access the methods and properties of BankService and UserSessionService classes through dependency injection.-->
 @inject BankService BankService
 @inject UserSessionService UserSessionService
 <!-- Dependency injection is a technique in which an object receives other objects that it depends on. This results in loosely coupled components, and shared instances of services.
@@ -9,35 +7,33 @@
  Julio Casal (Director). (2024, March 27, 2:32). Blazor Full Course For Beginners [Video recording]. https://www.youtube.com/watch?v=RBVIclt4sOo
  -->
 
-<!-- Check conditionally to show the content based on the user's login status -->
-@if (UserSessionService.IsLoggedIn) // if the user is exist then show below contents
+<!-- Check if the user is logged in with the UserSessionService. If they are, show their Account, Otherwise show Please login -->
+@if (UserSessionService.IsLoggedIn) // if the user exists then show below contents
 {
-    // The currentUser username from the class of UserSessionService, injected from the top of this bank page component.
-    //Blazor's injection system allows us to inject services into components, pages, and other classes. It is the equivalent to using a constructor to inject dependencies into the component.
-        <h3>Welcome, @UserSessionService.CurrentUser.Username</h3>
+    // The currentUser username fetched from the UserSessionService instance (injected above)
+        <h3>Welcome, @UserSessionService.CurrentUser?.Username</h3>
     // displaying the current balance in the bank component
     <div class="form-group">
         <label for="balance">Current Balance</label>
-        <!-- with @symbol we can access the desire code that we want to present in this case @balance from bank services -->
-        <input id="balance" class="form-control" value="@balance" disabled />
+        <!-- with @symbol we can display serverside C# properties such as the balance of the users bank account -->
+        <input id="balance" class="form-control" value="@_balance" disabled />
     </div>
 
     <div class="form-group">
         <label for="amount">Amount</label>
-        <!-- the InputNumber is blazor built-in comonent that present numeric values 
-        the @bind-Value is used to update the amount of deposit and withdraow methods -->
-        <InputNumber id="amount" class="form-control" @bind-Value="amount" />
+        <!-- the InputNumber is blazor built-in component for a Numerical Input Field. The @bind-Value is used to
+         link the Field to the corresponding C# Properties below -->
+        <InputNumber id="amount" class="form-control" @bind-Value="_amount" />
     </div>
     <!-- Buttons to trigger deposit and withdraw actions
         In Blazor, the @onclick is used to bind an event handler to the onclick event of an HTML element.
-        when the event handler clicked, it calls the method of deposit and withdraw from BankService class.
-    -->
+        when the event handler clicked, it calls the method of deposit and withdraw from BankService class.-->
     <button class="btn btn-primary" @onclick="Deposit">Deposit</button>
     <button class="btn btn-secondary" @onclick="Withdraw">Withdraw</button>
     
-    <h5 class="mt-3">@message</h5>
+    <h5 class="mt-3">@_message</h5> // this message will be displayed after a deposit or withdrawal
 }
-//this condition is realted to if which checked on above for user exist it check opposit condition if the user is not exsit in this case ask the user to login
+// As mentioned at the beginning of the conditional code block, if the user is not logged in, show the following message:
 else
 {
     <p>Please log in to access your bank account.</p>
@@ -46,58 +42,60 @@ else
 
 @code {
     
-    private double balance;
-    private double amount;
-    private string message;
+    // The private fields used in the Bank component, bound to the HTML input fields and used to display the balance and messages
+    private double _balance;
+    private double _amount;
+    private string? _message; // The message to display after a deposit or withdrawal, with a nullable string type
 
+    
     // this method is used to set up initial state and perform necessary logic as soon as the component is initialised
     // in this case we need to check first the user login is logged in and the user balance is set to the initialise value which should be 0
     protected override void OnInitialized()
     {
         if (UserSessionService.IsLoggedIn)
         {
-            balance = BankService.GetBalance();
+            _balance = BankService.GetBalance();
         }
     }
+    
     // this method is private method which means we use it within this component only.
-    // it get the methods from the bank service class and it's method of deposit to calculate the user amount and balance.
+    // it employs the encapsulated methods from the BankService class to perform a deposit and withdraw actions
     private void Deposit()
     {
-        // get the Deposit method from BankSerive class and their initialise valie as arrgumennt it this cas is amount.
-        BankService.Deposit(amount);
-        // get the assigned balance value from updateBalnance method 
+        // Execute the Deposit method from BankService class with the amount deposited by the user
+        BankService.Deposit(_amount);
+        // get the new balance value
         UpdateBalance();
-        // display message based on the calcuated amount and new balance that already got from UpdateBalance();
-        message = $"Deposited {amount}. New balance is {balance}.";
-        // set the amount to 0 after user click on Deposit button. 
-        amount = 0;
+        // display message based on the calculated amount and new balance from UpdateBalance();
+        _message = $"Deposited {_amount}. New balance is {_balance}.";
+        // set the amount back to 0 after user click on Deposit button. 
+        _amount = 0;
     }
-
-    // this method is private method which means we use it within this component only.
-    // it get the methods from the bank service class and it's method of Withdraw to calculate the user amount and balance.
+    
+    // Just like the Deposit method, this method is used to withdraw an amount from the user's bank account
     private void Withdraw()
     {
         // first we need to check conditionally to ensure that the user is input an amount or is set to 0 this also check if user is has sufficient funds.
-        if (BankService.Withdraw(amount))
+        if (BankService.Withdraw(_amount))
         {
             // get the assigned balance value from updateBalnance method
             UpdateBalance();
             // display message based on the calcuated amount and new balance that already got from UpdateBalance();
-            message = $"Withdrew {amount}. New balance is {balance}.";
+            _message = $"Withdrew {_amount}. New balance is {_balance}.";
         }
         // otherwise the user didn't input any value == 0 or the balance is not sufficient to withdrew.
         else
         {
-            message = "Not sufficient funds available.";
+            _message = "Not sufficient funds available.";
         }
         // set the amount to 0 after user click on Withdraw button
-        amount = 0;
+        _amount = 0;
     }
-
-    // this method is private method which means we use it within this component only.
-    // this method only get the balance from BankService class and return the set value of balance.
+    
+    // this method updates the balance value by calling the GetBalance method from the BankService class,
+    // called after a deposit or withdrawal
     private void UpdateBalance()
     {
-        balance = BankService.GetBalance();
+        _balance = BankService.GetBalance();
     }
 }
