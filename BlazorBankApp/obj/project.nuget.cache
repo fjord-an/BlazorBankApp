@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AIlDYRo7T+T+MsrqNi1OubiNKcEk+Uc6KE+GO9mLtveHhCdujLsfcx0OAV+AiSi0q3YN4cwy89VH+y4Ys1uMlQ==",
+  "dgSpecHash": "IOFyP+6dZoe3gpAOhZXWC9LFhCxW5cVCSCRhchjfabWTpuHcOUZ9ToWF9Lou54pVvocn3dbDfKKoIih/BGa5Cw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.3\\microsoft.aspnetcore.components.webassembly.8.0.3.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\8.0.3\\microsoft.aspnetcore.components.webassembly.devserver.8.0.3.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.3\\microsoft.aspnetcore.metadata.8.0.3.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.data.sqlite\\9.0.0-preview.6.24327.4\\microsoft.data.sqlite.9.0.0-preview.6.24327.4.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0-preview.6.24327.4\\microsoft.data.sqlite.core.9.0.0-preview.6.24327.4.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.1\\microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",
@@ -30,7 +32,12 @@
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.3\\microsoft.jsinterop.webassembly.8.0.3.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.5\\microsoft.net.sdk.webassembly.pack.8.0.5.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.8\\sqlitepclraw.bundle_e_sqlite3.2.1.8.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.8\\sqlitepclraw.lib.e_sqlite3.2.1.8.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.8\\sqlitepclraw.provider.e_sqlite3.2.1.8.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.5.nupkg.sha512"
