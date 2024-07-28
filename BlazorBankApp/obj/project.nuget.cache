@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AIlDYRo7T+T+MsrqNi1OubiNKcEk+Uc6KE+GO9mLtveHhCdujLsfcx0OAV+AiSi0q3YN4cwy89VH+y4Ys1uMlQ==",
+  "dgSpecHash": "862OQSKnBTWNBYPNWx50eotz41zC0R6KY/qeVn2v9xVUNfKkynUjS09VAu58JMsmn/19iqpr4bLRvZqef8djcw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp.csproj",
   "expectedPackageFiles": [
@@ -29,11 +29,10 @@
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.jsinterop\\8.0.3\\microsoft.jsinterop.8.0.3.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.3\\microsoft.jsinterop.webassembly.8.0.3.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
-    "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.5\\microsoft.net.sdk.webassembly.pack.8.0.5.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.7\\microsoft.net.sdk.webassembly.pack.8.0.7.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\Jordan\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.5.nupkg.sha512"
+    "C:\\Users\\Jordan\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

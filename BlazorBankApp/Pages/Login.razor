@@ -35,7 +35,7 @@ else
 
         <button type="submit" class="btn btn-primary">Login</button>
     </EditForm>
-    // check if the login boolean is false show user a message and show the number of attempts.
+    // check if the login boolean is false show the user a message and show the number of attempts.
     @if (_loginFailed)
     {
         <p class="text-danger">Login failed. Please try again.</p>
@@ -46,7 +46,6 @@ else
 
 @code { 
     // The server side code for the login page logic:
-    
     // initialize a UserInfo Object to store the login model data from the bound fields
     private readonly UserInfo _loginModel = new()
     {

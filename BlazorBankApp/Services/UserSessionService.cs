@@ -12,6 +12,7 @@ namespace BlazorBankApp.Services
         // The StateHasChanged is a built-in Razor method which re-renders the component to dynamically update the UI.
         public event Action? OnLoginStateChanged; // will show account controls if user is logged in
         
+        
         // Method to log in a user
         public void Login(UserInfo userInfo)
         {
@@ -26,9 +27,9 @@ namespace BlazorBankApp.Services
         // Method to log out the current user
         public void Logout()
         {
-            CurrentUser = null;
-            IsLoggedIn = false;
-            OnLoginStateChanged.Invoke();
+            CurrentUser = null; // remove the current user
+            IsLoggedIn = false; // set the IsLoggedIn property to false
+            OnLoginStateChanged.Invoke(); // Trigger the OnLoginStateChanged event delegate in the navbar component
         }
     }
 }

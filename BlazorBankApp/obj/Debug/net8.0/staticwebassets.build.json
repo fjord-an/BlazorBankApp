@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nv1AsPxNPSRHTJBuexA4J9pkGp01j3JB77gP4OFEwKY=",
+  "Hash": "RomPxb4ENwlvvSZgJaGek0SV8ILiZJRxT+6fk93L0v8=",
   "Source": "BlazorBankApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.f38kzjiaq6.js",
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.37dkch2d2y.js",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.5.f38kzjiaq6.js",
+      "RelativePath": "_framework/dotnet.native.8.0.7.37dkch2d2y.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.wegtbomfst.js",
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.urcsr75yt5.js",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.5.wegtbomfst.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.7.urcsr75yt5.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +185,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.7\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -4235,23 +4235,42 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\35jc0p1gnm.gz",
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\37dkch2d2y.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "RelativePath": "_framework/dotnet.native.8.0.7.37dkch2d2y.js.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.37dkch2d2y.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.7.37dkch2d2y.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\3rrtxwix54.gz",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\3v0339ua2s.gz",
@@ -4290,6 +4309,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorBankApp.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\46wj3f8iim.gz",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\484l280ufp.gz",
@@ -4710,25 +4748,6 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\8p6zot8bjc.gz",
-      "SourceId": "BlazorBankApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\8thori91ro.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
@@ -5052,25 +5071,6 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\c3hzy1l6oc.gz",
-      "SourceId": "BlazorBankApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
-    },
-    {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\c3ucpafv2h.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
@@ -5280,23 +5280,23 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Formatters.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\f38kzjiaq6.gz",
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\f23nu5hkfg.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.5.f38kzjiaq6.js.gz",
+      "RelativePath": "_framework/dotnet.js.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.f38kzjiaq6.js",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.f38kzjiaq6.js"
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\f9zskiffkl.gz",
@@ -5411,6 +5411,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\fya3d8ovfm.gz",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\gahvyhm0xw.gz",
@@ -5736,25 +5755,6 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.NameResolution.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\ipid9vdlct.gz",
-      "SourceId": "BlazorBankApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
-    },
-    {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\isu6wpepqc.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
@@ -6038,6 +6038,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\ka3w8hadk3.gz",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\kakywx37pd.gz",
@@ -6437,6 +6456,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\ovzsgv6a1u.gz",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\oxv6wues2i.gz",
@@ -7009,25 +7047,6 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\u7dg6ebarc.gz",
-      "SourceId": "BlazorBankApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
-    },
-    {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\uauha0o9dg.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
@@ -7102,6 +7121,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\urcsr75yt5.gz",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.7.urcsr75yt5.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.urcsr75yt5.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.7.urcsr75yt5.js"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\uv9nr20gxw.gz",
@@ -7237,6 +7275,25 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Ping.wasm"
     },
     {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\vzhy5cblum.gz",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
+    },
+    {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\w488ou67in.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
@@ -7332,25 +7389,6 @@
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Memory.wasm"
     },
     {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\wegtbomfst.gz",
-      "SourceId": "BlazorBankApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.5.wegtbomfst.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.wegtbomfst.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.wegtbomfst.js"
-    },
-    {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\wivjgdizp3.gz",
       "SourceId": "BlazorBankApp",
       "SourceType": "Computed",
@@ -7406,25 +7444,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\wx9v2recoe.gz",
-      "SourceId": "BlazorBankApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\x3m7kfmdxg.gz",
@@ -7577,25 +7596,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\WindowsBase.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\yfm44wzbjt.gz",
-      "SourceId": "BlazorBankApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\ygso6aelsy.gz",
@@ -7862,6 +7862,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\Data\\accounts.db",
+      "SourceId": "BlazorBankApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Data/accounts.db",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\accounts.db"
     },
     {
       "Identity": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\favicon.png",

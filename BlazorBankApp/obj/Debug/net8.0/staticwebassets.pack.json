@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\BlazorBankApp.styles.css"
     },
     {
+      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\Data\\accounts.db",
+      "PackagePath": "staticwebassets\\Data\\accounts.db"
+    },
+    {
       "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\Images\\banking.jpg",
       "PackagePath": "staticwebassets\\Images\\banking.jpg"
     },

@@ -5164,8 +5164,6 @@ C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\Blaz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\BlazorBankApp.pdb
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\BlazorBankApp.wasm
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.5.f38kzjiaq6.js
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.5.wegtbomfst.js
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.wasm
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.wasm
@@ -5430,7 +5428,6 @@ C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\Blaz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Net.Sockets.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.wasm.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.5.f38kzjiaq6.js.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Json.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Xml.ReaderWriter.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.wasm.gz
@@ -5538,7 +5535,6 @@ C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\Blaz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Xml.Serialization.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Thread.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Memory.wasm.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.5.wegtbomfst.js.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Net.WebHeaderCollection.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.wasm.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\System.Security.wasm.gz
@@ -6167,15 +6163,6 @@ C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\Blaz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\7sbjp5keay.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\j342dle8af.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\05bq1nkxow.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\c3hzy1l6oc.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\ipid9vdlct.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\f38kzjiaq6.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\8p6zot8bjc.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\wegtbomfst.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\35jc0p1gnm.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\yfm44wzbjt.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\u7dg6ebarc.gz
-C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\wx9v2recoe.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\459hyrfdit.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\544t1ockr9.gz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\fveyapdap7.gz
@@ -6185,3 +6172,16 @@ C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\Blaz
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\BlazorBankApp.pdb
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\ref\BlazorBankApp.dll
 C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\BlazorBankApp.sourcelink.json
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.7.urcsr75yt5.js
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.7.urcsr75yt5.js.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.7.37dkch2d2y.js
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.7.37dkch2d2y.js.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\f23nu5hkfg.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\46wj3f8iim.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\37dkch2d2y.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\vzhy5cblum.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\urcsr75yt5.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\ka3w8hadk3.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\fya3d8ovfm.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\ovzsgv6a1u.gz
+C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\obj\Debug\net8.0\compressed\3rrtxwix54.gz

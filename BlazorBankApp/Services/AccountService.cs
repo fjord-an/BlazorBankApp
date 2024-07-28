@@ -4,7 +4,7 @@ namespace BlazorBankApp.Services;
 
 public class AccountService
 {
-    // List to store user data
+    // List to store user objects
     private readonly List<UserInfo> _users = new();
     
     // Constructor to initialise the service with a dummy user for testing

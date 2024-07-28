@@ -8,7 +8,7 @@
  -->
 
 <!-- Check if the user is logged in with the UserSessionService. If they are, show their Account, Otherwise show Please login -->
-@if (UserSessionService.IsLoggedIn) // if the user exists then show below contents
+@if (UserSessionService.IsLoggedIn) // if the user exists then render the following html code block
 {
     // The currentUser username fetched from the UserSessionService instance (injected above)
         <h3>Welcome, @UserSessionService.CurrentUser?.Username</h3>
@@ -40,7 +40,7 @@ else
 }
 
 
-@code {
+@code { // The C# code block for the Bank component
     
     // The private fields used in the Bank component, bound to the HTML input fields and used to display the balance and messages
     private double _balance;
