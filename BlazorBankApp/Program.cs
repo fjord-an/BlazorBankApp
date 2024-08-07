@@ -6,7 +6,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using BlazorBankApp.Services;
-
+//The Program class defines the application's starting point.
 public class Program
 {
     public static async Task Main(string[] args)
