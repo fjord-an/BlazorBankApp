@@ -1,6 +1,8 @@
 @page "/bank"
 <!-- allowing the bank component to access the methods and properties of BankService and UserSessionService classes through dependency injection.-->
-@inject BankService BankService
+<!-- It essentially injects the object into this component, so that the objects lifetime can be manipulated (persistent in this use case)-->
+@inject EverydayAccount Everyday
+@inject SavingsAccount Savings
 @inject UserSessionService UserSessionService
 <!-- Dependency injection is a technique in which an object receives other objects that it depends on. This results in loosely coupled components, and shared instances of services.
  In Blazor, we can inject services into components, pages, and other classes. It is a simplified way of injecting an object into this component through a constructor, which blazor does behind the scenes
@@ -14,9 +16,15 @@
         <h3>Welcome, @UserSessionService.CurrentUser?.Username</h3>
     // displaying the current balance in the bank component
     <div class="form-group">
-        <label for="balance">Current Balance</label>
+        <label for="balance">Everyday Account:</label>
         <!-- with @symbol we can display serverside C# properties such as the balance of the users bank account -->
-        <input id="balance" class="form-control" value="@_balance" disabled />
+        <input id="balance" class="form-control" value="@_everydayBalance" disabled />
+    </div>
+    
+    <div class="form-group">
+        <label for="balance">Savings Account:</label>
+        <!-- with @symbol we can display serverside C# properties such as the balance of the users bank account -->
+        <input id="balance" class="form-control" value="@_savingsBalance" disabled />
     </div>
 
     <div class="form-group">
@@ -30,8 +38,10 @@
         when the event handler clicked, it calls the method of deposit and withdraw from BankService class.-->
     <button class="btn btn-primary" @onclick="Deposit">Deposit</button>
     <button class="btn btn-secondary" @onclick="Withdraw">Withdraw</button>
-    
-    <h5 class="mt-3">@_message</h5> // this message will be displayed after a deposit or withdrawal
+    <div class="py-1"/>
+    <button class="btn btn-primary" @onclick="ToSavings">Transfer to Savings</button>
+
+    <p class="alert-success"><h5 class="mt-3">@_message</h5></p> // this message will be displayed after a banking operation is performed
 }
 // As mentioned at the beginning of the conditional code block, if the user is not logged in, show the following message:
 else
@@ -40,10 +50,20 @@ else
 }
 
 
+@*if (!(BankService.Withdraw(_amount) || BankService.Transfer(_amount)))
+{ //TODO review this commented code block
+<p class="alert-success">Banking operation success!</p>
+} else
+{
+<p class="alert-danger">Banking operation failed. Please try again!</p>
+} *@
+
+
 @code { // The C# code block for the Bank component
     
     // The private fields used in the Bank component, bound to the HTML input fields and used to display the balance and messages
-    private double _balance;
+    private double _everydayBalance;
+    private double _savingsBalance;
     private double _amount;
     private string? _message; // The message to display after a deposit or withdrawal, with a nullable string type
 
@@ -54,7 +74,8 @@ else
     {
         if (UserSessionService.IsLoggedIn)
         {
-            _balance = BankService.GetBalance();
+            _everydayBalance = Everyday.GetBalance();
+            _savingsBalance = Savings.GetBalance();
         }
     }
     
@@ -63,11 +84,11 @@ else
     private void Deposit()
     {
         // Execute the Deposit method from BankService class with the amount deposited by the user
-        BankService.Deposit(_amount);
+        Everyday.Deposit(_amount, Everyday);
         // get the new balance value
         UpdateBalance();
         // display message based on the calculated amount and new balance from UpdateBalance();
-        _message = $"Deposited {_amount}. New balance is {_balance}.";
+        _message = $"Deposited {_amount}. New balance is {_everydayBalance}.";
         // set the amount back to 0 after user click on Deposit button. 
         _amount = 0;
     }
@@ -76,12 +97,13 @@ else
     private void Withdraw()
     {
         // first we need to check conditionally to ensure that the user is input an amount or is set to 0 this also check if user is has sufficient funds.
-        if (BankService.Withdraw(_amount))
+        if (Everyday.Withdraw(_amount, Everyday))
         {
-            // get the assigned balance value from updateBalnance method
+            // get the assigned balance value from updateBalance method
             UpdateBalance();
+            
             // display message based on the calcuated amount and new balance that already got from UpdateBalance();
-            _message = $"Withdrew {_amount}. New balance is {_balance}.";
+            _message = $"Withdrew {_amount}. New balance is {_everydayBalance}.";
         }
         // otherwise the user didn't input any value == 0 or the balance is not sufficient to withdrew.
         else
@@ -91,11 +113,19 @@ else
         // set the amount to 0 after user click on Withdraw button
         _amount = 0;
     }
+
+    private void ToSavings()
+    {
+        Savings.Transfer(_amount, Savings, Everyday);
+        UpdateBalance();
+    }
     
     // this method updates the balance value by calling the GetBalance method from the BankService class,
     // called after a deposit or withdrawal
+    
     private void UpdateBalance()
     {
-        _balance = BankService.GetBalance();
+        _everydayBalance = Everyday.GetBalance();
+        _savingsBalance = Savings.GetBalance();
     }
 }

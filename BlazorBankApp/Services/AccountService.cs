@@ -47,14 +47,5 @@ public class AccountService
         // Find and return the user that matches the provided email and password. if found, return true.
         // if the user is not found, the method will return null. Thus, this will return false by the comparison statement.
         return _users.FirstOrDefault(user => user.Email == email && user.Password == password) != null;
-        
-        // TODO: proposed future implementation in next update, incorporating hashing algorithm
-        //     var user = _users.FirstOrDefault(u => u.Email == email);
-        //     if (user != null && user.Password == password) // In a real application, use a secure password comparison method here
-        //     {
-        //         return true;
-        //     }
-        //     return false;
-        // }
     }
 }

@@ -13,43 +13,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorBankApp
 build_property.RootNamespace = BlazorBankApp
-build_property.ProjectDir = C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp\
+build_property.ProjectDir = C:\Users\Jordan\OneDrive - MyLearn\ISE102\Assessment2\BlazorBankApp\BlazorBankApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jordan\Programs\projects\BlazorBankApp\BlazorBankApp\BlazorBankApp\BlazorBankApp
+build_property.MSBuildProjectDirectory = C:\Users\Jordan\OneDrive - MyLearn\ISE102\Assessment2\BlazorBankApp\BlazorBankApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/App.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/Pages/Bank.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/Pages/Bank.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFuay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/Pages/Home.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/Pages/Login.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/Pages/Signup.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/Pages/Signup.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/_Imports.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/Layout/MainLayout.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7swethnig0
 
-[C:/Users/Jordan/Programs/projects/BlazorBankApp/BlazorBankApp/BlazorBankApp/BlazorBankApp/Layout/NavMenu.razor]
+[C:/Users/Jordan/OneDrive - MyLearn/ISE102/Assessment2/BlazorBankApp/BlazorBankApp/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r9kyi36mf3

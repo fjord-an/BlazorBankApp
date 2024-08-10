@@ -2065,11 +2065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp.csproj",
+      "projectUniqueName": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp.csproj",
       "projectName": "BlazorBankApp",
-      "projectPath": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp.csproj",
+      "projectPath": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp.csproj",
       "packagesPath": "C:\\Users\\Jordan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\",
+      "outputPath": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

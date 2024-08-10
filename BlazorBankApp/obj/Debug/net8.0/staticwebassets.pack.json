@@ -1,51 +1,51 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\t6279f01dk.gz",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\compressed\\t6279f01dk.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorBankApp.styles.css",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorBankApp.styles.css",
       "PackagePath": "staticwebassets\\BlazorBankApp.styles.css"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\Data\\accounts.db",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\Data\\accounts.db",
       "PackagePath": "staticwebassets\\Data\\accounts.db"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\Images\\banking.jpg",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\Images\\banking.jpg",
       "PackagePath": "staticwebassets\\Images\\banking.jpg"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Jordan\\Programs\\projects\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
