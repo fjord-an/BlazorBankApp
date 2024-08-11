@@ -4,6 +4,7 @@ namespace BlazorBankApp.Services;
 
 public class BankAccountService
 {
+    //TODO add comments
     public BankAccount EverydayAccount { get; set; }
     public BankAccount SavingsAccount { get; set; }
 

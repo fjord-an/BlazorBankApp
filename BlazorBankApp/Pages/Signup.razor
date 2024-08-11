@@ -4,7 +4,7 @@
 @inject AccountService Credentials
 @inject NavigationManager Navigation
 
-<h3>Signup</h3>
+<h3 align="center">Signup</h3>
 <!-- EditForm component to handle user input and form validation -->
 <EditForm Model="_signupModel" OnValidSubmit="HandleSignup">
     <!-- Validator for data annotations and validation errors-->
@@ -12,33 +12,40 @@
     <ValidationSummary />
 
     <!-- Input fields for user data with bootstrap classes -->
-    <div class="form-group">
-        <label for="username">Username</label>
-        <InputText id="username" class="form-control" @bind-Value="_signupModel.Username" />
-    </div>
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 align-items-center">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <InputText id="username" class="form-control" @bind-Value="_signupModel.Username" />
+            </div>
 
-    <div class="form-group">
-        <label for="email">Email*</label>
-        <InputText id="email" class="form-control" @bind-Value="_signupModel.Email" />
-    </div>
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <InputText id="email" class="form-control" @bind-Value="_signupModel.Email" />
+            </div>
 
-    <div class="form-group">
-        <label for="age">Age*</label>
-        <InputNumber id="age" class="form-control" @bind-Value="_signupModel.Age" />
-    </div>
+            <div class="form-group">
+                <label for="age">Age*</label>
+                <InputNumber id="age" class="form-control" @bind-Value="_signupModel.Age" />
+            </div>
 
-    <div class="form-group">
-        <label for="phone">Phone</label>
-        <InputText id="phone" class="form-control" @bind-Value="_signupModel.Phone" />
-    </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <InputText id="phone" class="form-control" @bind-Value="_signupModel.Phone" />
+            </div>
 
-    <div class="form-group">
-        <label for="password">Password*</label>
-        <InputText id="password" class="form-control" type="password" @bind-Value="_signupModel.Password" />
+            <div class="form-group">
+                <label for="password">Password*</label>
+                <InputText id="password" class="form-control" type="password" @bind-Value="_signupModel.Password" />
+            </div>
+            
+            <div class="py-2 d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn btn-primary w-50">Signup</button>
+            </div>
+        </div>
     </div>
-
-    <button type="submit" class="btn btn-primary">Signup</button>
 </EditForm>
+
 @if (_signupFailed)
 {
     <p class="alert-danger">Signup failed. Please try again!</p>

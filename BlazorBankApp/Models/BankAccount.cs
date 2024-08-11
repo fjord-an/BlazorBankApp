@@ -4,6 +4,7 @@ using BlazorBankApp.Models;
  {
   public abstract class BankAccount
   {
+   //TODO add comments
    public string AccountNumber { get; set; }
    public string AccountHolder { get; set; }
    public double Balance { get; protected set; }

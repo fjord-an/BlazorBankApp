@@ -12,8 +12,6 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
-        //test123
-        //test
         var builder = WebAssemblyHostBuilder.CreateDefault(args);
         builder.RootComponents.Add<App>("#app");
         builder.RootComponents.Add<HeadOutlet>("head::after");

@@ -13,35 +13,47 @@
 @if (UserSessionService.IsLoggedIn) // if the user exists then render the following html code block
 {
     // The currentUser username fetched from the UserSessionService instance (injected above)
-        <h3>Welcome, @UserSessionService.CurrentUser?.Username</h3>
+    <h3 align="center">Welcome, @UserSessionService.CurrentUser.Username</h3>
     // displaying the current balance in the bank component
-    <div class="form-group">
-        <label for="balance">Everyday Account:</label>
-        <!-- with @symbol we can display serverside C# properties such as the balance of the users bank account -->
-        <input id="balance" class="form-control" value="@_everydayBalance" disabled />
-    </div>
-    
-    <div class="form-group">
-        <label for="balance">Savings Account:</label>
-        <!-- with @symbol we can display serverside C# properties such as the balance of the users bank account -->
-        <input id="balance" class="form-control" value="@_savingsBalance" disabled />
-    </div>
+    <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 align-items-center">
+            <div class="form-group">
+                <label for="balance">Everyday Access Account:</label>
+                <!-- with @symbol we can display serverside C# properties such as the balance of the users bank account -->
+                <input id="balance" class="form-control" value="@_everydayBalance" disabled/>
+            </div>
 
-    <div class="form-group">
-        <label for="amount">Amount</label>
-        <!-- the InputNumber is blazor built-in component for a Numerical Input Field. The @bind-Value is used to
-         link the Field to the corresponding C# Properties below -->
-        <InputNumber id="amount" class="form-control" @bind-Value="_amount" />
-    </div>
-    <!-- Buttons to trigger deposit and withdraw actions
-        In Blazor, the @onclick is used to bind an event handler to the onclick event of an HTML element.
-        when the event handler clicked, it calls the method of deposit and withdraw from BankService class.-->
-    <button class="btn btn-primary" @onclick="Deposit">Deposit</button>
-    <button class="btn btn-secondary" @onclick="Withdraw">Withdraw</button>
-    <div class="py-1"/>
-    <button class="btn btn-primary" @onclick="ToSavings">Transfer to Savings</button>
+            <div class="form-group">
+                <label for="balance">Savings Account:</label>
+                <!-- with @symbol we can display serverside C# properties such as the balance of the users bank account -->
+                <input id="balance" class="form-control" value="@_savingsBalance" disabled/>
+            </div>
 
-    <p class="alert-success"><h5 class="mt-3">@_message</h5></p> // this message will be displayed after a banking operation is performed
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <!-- the InputNumber is blazor built-in component for a Numerical Input Field. The @bind-Value is used to
+                 link the Field to the corresponding C# Properties below -->
+                <InputNumber id="amount" class="form-control" @bind-Value="_amount"/>
+            </div>
+            <!-- Buttons to trigger deposit and withdraw actions
+                In Blazor, the @onclick is used to bind an event handler to the onclick event of an HTML element.
+                when the event handler clicked, it calls the method of deposit and withdraw from BankService class.-->
+            <div class="py-1 d-flex justify-content-center align-items-center">
+                <button class="btn btn-primary w-100" @onclick="Deposit">Deposit</button>
+                <button class="btn btn-secondary w-100" @onclick="Withdraw">Withdraw</button>
+            </div>
+            <!-- The bootstrap classes are used to align the elements neatly. "d-flex justify-content-center align-items-center"
+            will align the content in the center of the div. "w-100" will span the buttons the entire width of the div -->
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn btn-primary w-100" @onclick="ToSavings">Transfer to Savings</button>
+                <p/>
+                <button class="btn btn-secondary w-100" @onclick="ToEveryday">Transfer to Everyday</button>
+            </div>
+
+            <p class="alert-success"><h5 class="mt-3">@_message</h5>
+        </div>
+    </div>
+    // this message will be displayed after a banking operation is performed
 }
 // As mentioned at the beginning of the conditional code block, if the user is not logged in, show the following message:
 else
@@ -114,10 +126,32 @@ else
         _amount = 0;
     }
 
+    //TODO add comments to the following transfer methods:
     private void ToSavings()
     {
-        Savings.Transfer(_amount, Savings, Everyday);
-        UpdateBalance();
+        if (Savings.Transfer(_amount, Savings, Everyday))
+        {
+            UpdateBalance();
+            _message = $"Transferred {_amount} from Everyday Access to Savings.";
+        }
+        else
+        {
+            _message = "Not sufficient funds available.";
+        }
+        
+    }
+    
+    private void ToEveryday()
+    {
+        if (Everyday.Transfer(_amount, Everyday, Savings))
+        {
+            UpdateBalance();
+            _message = $"Transferred {_amount} from Savings to Everyday Access.";
+        }
+        else
+        {
+            _message = "Not sufficient funds available.";
+        }
     }
     
     // this method updates the balance value by calling the GetBalance method from the BankService class,
