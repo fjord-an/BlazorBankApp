@@ -4,10 +4,10 @@ namespace BlazorBankApp.Services;
 
 public class AccountService
 {
-    // List to store user objects
+    // Private list to store user objects (consider using more secure data storage solution in production)
     private readonly List<UserInfo> _users = new();
     
-    // Constructor to initialise the service with a dummy user for testing
+    // Constructor to initialise the service with a dummy user for testing purposes.
     public AccountService()
     {
         // Adding a dummy user for testing
@@ -41,11 +41,11 @@ public class AccountService
         return true;
     }
 
-    // Authenticate thr user
+    // Method to authenticate a user login attempt.
     public bool Login(string email, string password)
     {
-        // Find and return the user that matches the provided email and password. if found, return true.
-        // if the user is not found, the method will return null. Thus, this will return false by the comparison statement.
+        // Attempt to find a user with the provided email and password.
+        // Return true if a matching user is found, otherwise return false.
         return _users.FirstOrDefault(user => user.Email == email && user.Password == password) != null;
     }
 }
