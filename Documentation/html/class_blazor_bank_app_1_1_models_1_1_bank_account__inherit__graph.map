@@ -1,0 +1,7 @@
+<map id="BlazorBankApp.Models.BankAccount" name="BlazorBankApp.Models.BankAccount">
+<area shape="rect" id="Node000001" title=" " alt="" coords="40,5,223,197"/>
+<area shape="rect" id="Node000002" href="$class_everyday_account.html" title=" " alt="" coords="5,245,121,315"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,212,79,247,74,245,87,210"/>
+<area shape="rect" id="Node000003" href="$class_savings_account.html" title=" " alt="" coords="145,245,253,315"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,210,189,245,184,247,171,212"/>
+</map>

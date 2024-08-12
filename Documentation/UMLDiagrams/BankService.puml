@@ -1,0 +1,7 @@
+@startuml
+class BankAccountService {
+    + EverydayAccount : BankAccount <<get>> <<set>>
+    + SavingsAccount : BankAccount <<get>> <<set>>
+    + BankAccountService(BankAccount, BankAccount)
+}
+@enduml

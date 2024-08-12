@@ -1,0 +1,29 @@
+@startuml
+!include .\\Documentation\UMLDiagrams\Program.puml
+!include .\\Documentation\UMLDiagrams\BankAccount.puml
+!include .\\Documentation\UMLDiagrams\UserInfo.puml
+!include .\\Documentation\UMLDiagrams\AccountService.puml
+!include .\\Documentation\UMLDiagrams\BankService.puml
+!include .\\Documentation\UMLDiagrams\UserSessionService.puml
+!include .\\Documentation\UMLDiagrams\.NETCoreApp,Version=v8.0.AssemblyAttributes.puml
+!include .\\Documentation\UMLDiagrams\BlazorBankApp.AssemblyInfo.puml
+!include .\\Documentation\UMLDiagrams\BlazorBankApp.GlobalUsings.g.puml
+
+Program --> EverydayAccount
+Program --> SavingsAccount
+Program --> BankAccountService
+Program --> AccountService
+Program --> UserSessionService
+AccountService --> UserInfo
+UserSessionService --> UserInfo
+BankAccountService --> EverydayAccount
+BankAccountService --> SavingsAccount
+MainLayout --> NavMenu
+MainLayout --> Index
+
+MainLayout --> AccountService
+MainLayout --> UserSessionService
+NavMenu --> AccountService
+NavMenu --> UserSessionService
+
+@enduml

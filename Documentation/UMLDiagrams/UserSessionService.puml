@@ -1,0 +1,9 @@
+@startuml
+class UserSessionService {
+    + CurrentUser : UserInfo? <<get>>
+    + IsLoggedIn : bool <<get>>
+    +  <<event>> OnLoginStateChanged : Action? 
+    + Login(UserInfo) : void
+    + Logout() : void
+}
+@enduml

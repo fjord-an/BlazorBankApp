@@ -1,0 +1,9 @@
+@startuml
+class AccountService {
+    - <<readonly>> _users : List<UserInfo>
+    + AccountService()
+    - {static} IsValidUser(UserInfo) : bool
+    + Signup(UserInfo) : bool
+    + Login(string, string) : UserInfo?
+}
+@enduml

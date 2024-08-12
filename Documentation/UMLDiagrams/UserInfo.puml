@@ -1,0 +1,9 @@
+@startuml
+class UserInfo {
+    + Username : string? <<get>> <<set>>
+    + <<required>> Email : string <<get>> <<set>>
+    + Age : int <<get>> <<set>>
+    + Phone : string? <<get>> <<set>>
+    + <<required>> Password : string <<get>> <<set>>
+}
+@enduml

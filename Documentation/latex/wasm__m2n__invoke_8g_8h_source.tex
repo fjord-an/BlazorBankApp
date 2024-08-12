@@ -1,0 +1,632 @@
+\doxysection{wasm\+\_\+m2n\+\_\+invoke.\+g.\+h}
+\hypertarget{wasm__m2n__invoke_8g_8h_source}{}\label{wasm__m2n__invoke_8g_8h_source}\index{BlazorBankApp/obj/Debug/net8.0/wasm/for-\/build/wasm\_m2n\_invoke.g.h@{BlazorBankApp/obj/Debug/net8.0/wasm/for-\/build/wasm\_m2n\_invoke.g.h}}
+\mbox{\hyperlink{wasm__m2n__invoke_8g_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{*\ GENERATED\ FILE,\ DON'T\ EDIT}}
+\DoxyCodeLine{00003\ \textcolor{comment}{*\ Generated\ by\ InterpToNativeGenerator}}
+\DoxyCodeLine{00004\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}pinvoke.h"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00008\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00009\ wasm\_invoke\_ii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00010\ \{}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0);}
+\DoxyCodeLine{00012\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0));}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00015\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00016\ \}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00019\ wasm\_invoke\_vi\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00020\ \{}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0);}
+\DoxyCodeLine{00022\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00023\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0));}
+\DoxyCodeLine{00024\ \}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00027\ wasm\_invoke\_iiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00028\ \{}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2);}
+\DoxyCodeLine{00030\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2));}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00033\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00034\ \}}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00037\ wasm\_invoke\_iii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00038\ \{}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1);}
+\DoxyCodeLine{00040\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1));}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00043\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00044\ \}}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00047\ wasm\_invoke\_iiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00048\ \{}
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4);}
+\DoxyCodeLine{00050\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4));}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00053\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00054\ \}}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00057\ wasm\_invoke\_iiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00058\ \{}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5);}
+\DoxyCodeLine{00060\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5));}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00063\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00064\ \}}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00067\ wasm\_invoke\_iiiiiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00068\ \{}
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6,\ \textcolor{keywordtype}{int}\ arg\_7,\ \textcolor{keywordtype}{int}\ arg\_8);}
+\DoxyCodeLine{00070\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 7),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 8));}
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00073\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00074\ \}}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00076\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00077\ wasm\_invoke\_iiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00078\ \{}
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3);}
+\DoxyCodeLine{00080\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3));}
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00083\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00084\ \}}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00087\ wasm\_invoke\_i\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00088\ \{}
+\DoxyCodeLine{00089\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(void);}
+\DoxyCodeLine{00090\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00091\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ ();}
+\DoxyCodeLine{00092\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00093\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00094\ \}}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00097\ wasm\_invoke\_li\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00098\ \{}
+\DoxyCodeLine{00099\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(\textcolor{keywordtype}{int}\ arg\_0);}
+\DoxyCodeLine{00100\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00101\ \ \ \ \ int64\_t\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0));}
+\DoxyCodeLine{00102\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00103\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00104\ \}}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00106\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00107\ wasm\_invoke\_l\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00108\ \{}
+\DoxyCodeLine{00109\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(void);}
+\DoxyCodeLine{00110\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00111\ \ \ \ \ int64\_t\ res\ =\ func\ ();}
+\DoxyCodeLine{00112\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00113\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00114\ \}}
+\DoxyCodeLine{00115\ }
+\DoxyCodeLine{00116\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00117\ wasm\_invoke\_ll\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00118\ \{}
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(int64\_t\ arg\_0);}
+\DoxyCodeLine{00120\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00121\ \ \ \ \ int64\_t\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 0));}
+\DoxyCodeLine{00122\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00123\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00124\ \}}
+\DoxyCodeLine{00125\ }
+\DoxyCodeLine{00126\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00127\ wasm\_invoke\_iiid\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00128\ \{}
+\DoxyCodeLine{00129\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{double}\ arg\_2);}
+\DoxyCodeLine{00130\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00131\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 0));}
+\DoxyCodeLine{00132\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00133\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00134\ \}}
+\DoxyCodeLine{00135\ }
+\DoxyCodeLine{00136\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00137\ wasm\_invoke\_iiil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00138\ \{}
+\DoxyCodeLine{00139\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ int64\_t\ arg\_2);}
+\DoxyCodeLine{00140\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00141\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 2));}
+\DoxyCodeLine{00142\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00143\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00144\ \}}
+\DoxyCodeLine{00145\ }
+\DoxyCodeLine{00146\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00147\ wasm\_invoke\_dii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00148\ \{}
+\DoxyCodeLine{00149\ \ \ \ \ \textcolor{keyword}{typedef}\ double\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1);}
+\DoxyCodeLine{00150\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00151\ \ \ \ \ \textcolor{keywordtype}{double}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1));}
+\DoxyCodeLine{00152\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00153\ \ \ \ \ *(\textcolor{keywordtype}{double}*)retval\ =\ res;}
+\DoxyCodeLine{00154\ \}}
+\DoxyCodeLine{00155\ }
+\DoxyCodeLine{00156\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00157\ wasm\_invoke\_lii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00158\ \{}
+\DoxyCodeLine{00159\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1);}
+\DoxyCodeLine{00160\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00161\ \ \ \ \ int64\_t\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1));}
+\DoxyCodeLine{00162\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00163\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00164\ \}}
+\DoxyCodeLine{00165\ }
+\DoxyCodeLine{00166\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00167\ wasm\_invoke\_di\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00168\ \{}
+\DoxyCodeLine{00169\ \ \ \ \ \textcolor{keyword}{typedef}\ double\ (*T)(\textcolor{keywordtype}{int}\ arg\_0);}
+\DoxyCodeLine{00170\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00171\ \ \ \ \ \textcolor{keywordtype}{double}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0));}
+\DoxyCodeLine{00172\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00173\ \ \ \ \ *(\textcolor{keywordtype}{double}*)retval\ =\ res;}
+\DoxyCodeLine{00174\ \}}
+\DoxyCodeLine{00175\ }
+\DoxyCodeLine{00176\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00177\ wasm\_invoke\_viiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00178\ \{}
+\DoxyCodeLine{00179\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3);}
+\DoxyCodeLine{00180\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00181\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3));}
+\DoxyCodeLine{00182\ \}}
+\DoxyCodeLine{00183\ }
+\DoxyCodeLine{00184\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00185\ wasm\_invoke\_vid\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00186\ \{}
+\DoxyCodeLine{00187\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{double}\ arg\_1);}
+\DoxyCodeLine{00188\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00189\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 0));}
+\DoxyCodeLine{00190\ \}}
+\DoxyCodeLine{00191\ }
+\DoxyCodeLine{00192\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00193\ wasm\_invoke\_viii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00194\ \{}
+\DoxyCodeLine{00195\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2);}
+\DoxyCodeLine{00196\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00197\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2));}
+\DoxyCodeLine{00198\ \}}
+\DoxyCodeLine{00199\ }
+\DoxyCodeLine{00200\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00201\ wasm\_invoke\_vii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00202\ \{}
+\DoxyCodeLine{00203\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1);}
+\DoxyCodeLine{00204\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00205\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1));}
+\DoxyCodeLine{00206\ \}}
+\DoxyCodeLine{00207\ }
+\DoxyCodeLine{00208\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00209\ wasm\_invoke\_vil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00210\ \{}
+\DoxyCodeLine{00211\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1);}
+\DoxyCodeLine{00212\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00213\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1));}
+\DoxyCodeLine{00214\ \}}
+\DoxyCodeLine{00215\ }
+\DoxyCodeLine{00216\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00217\ wasm\_invoke\_iiiiiiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00218\ \{}
+\DoxyCodeLine{00219\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6,\ \textcolor{keywordtype}{int}\ arg\_7,\ \textcolor{keywordtype}{int}\ arg\_8,\ \textcolor{keywordtype}{int}\ arg\_9);}
+\DoxyCodeLine{00220\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00221\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 7),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 8),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 9));}
+\DoxyCodeLine{00222\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00223\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00224\ \}}
+\DoxyCodeLine{00225\ }
+\DoxyCodeLine{00226\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00227\ wasm\_invoke\_iiiiiiiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00228\ \{}
+\DoxyCodeLine{00229\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6,\ \textcolor{keywordtype}{int}\ arg\_7,\ \textcolor{keywordtype}{int}\ arg\_8,\ \textcolor{keywordtype}{int}\ arg\_9,\ \textcolor{keywordtype}{int}\ arg\_10);}
+\DoxyCodeLine{00230\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00231\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 7),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 8),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 9),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 10));}
+\DoxyCodeLine{00232\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00233\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00234\ \}}
+\DoxyCodeLine{00235\ }
+\DoxyCodeLine{00236\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00237\ wasm\_invoke\_iiiiilii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00238\ \{}
+\DoxyCodeLine{00239\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ int64\_t\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6);}
+\DoxyCodeLine{00240\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00241\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 7));}
+\DoxyCodeLine{00242\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00243\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00244\ \}}
+\DoxyCodeLine{00245\ }
+\DoxyCodeLine{00246\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00247\ wasm\_invoke\_iil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00248\ \{}
+\DoxyCodeLine{00249\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1);}
+\DoxyCodeLine{00250\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00251\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1));}
+\DoxyCodeLine{00252\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00253\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00254\ \}}
+\DoxyCodeLine{00255\ }
+\DoxyCodeLine{00256\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00257\ wasm\_invoke\_iiliiil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00258\ \{}
+\DoxyCodeLine{00259\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ int64\_t\ arg\_5);}
+\DoxyCodeLine{00260\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00261\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 6));}
+\DoxyCodeLine{00262\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00263\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00264\ \}}
+\DoxyCodeLine{00265\ }
+\DoxyCodeLine{00266\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00267\ wasm\_invoke\_iili\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00268\ \{}
+\DoxyCodeLine{00269\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2);}
+\DoxyCodeLine{00270\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00271\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3));}
+\DoxyCodeLine{00272\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00273\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00274\ \}}
+\DoxyCodeLine{00275\ }
+\DoxyCodeLine{00276\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00277\ wasm\_invoke\_iiiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00278\ \{}
+\DoxyCodeLine{00279\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6);}
+\DoxyCodeLine{00280\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00281\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6));}
+\DoxyCodeLine{00282\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00283\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00284\ \}}
+\DoxyCodeLine{00285\ }
+\DoxyCodeLine{00286\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00287\ wasm\_invoke\_viiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00288\ \{}
+\DoxyCodeLine{00289\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4);}
+\DoxyCodeLine{00290\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00291\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4));}
+\DoxyCodeLine{00292\ \}}
+\DoxyCodeLine{00293\ }
+\DoxyCodeLine{00294\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00295\ wasm\_invoke\_iilli\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00296\ \{}
+\DoxyCodeLine{00297\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1,\ int64\_t\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3);}
+\DoxyCodeLine{00298\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00299\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5));}
+\DoxyCodeLine{00300\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00301\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00302\ \}}
+\DoxyCodeLine{00303\ }
+\DoxyCodeLine{00304\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00305\ wasm\_invoke\_lili\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00306\ \{}
+\DoxyCodeLine{00307\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2);}
+\DoxyCodeLine{00308\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00309\ \ \ \ \ int64\_t\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3));}
+\DoxyCodeLine{00310\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00311\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00312\ \}}
+\DoxyCodeLine{00313\ }
+\DoxyCodeLine{00314\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00315\ wasm\_invoke\_iill\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00316\ \{}
+\DoxyCodeLine{00317\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1,\ int64\_t\ arg\_2);}
+\DoxyCodeLine{00318\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00319\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 3));}
+\DoxyCodeLine{00320\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00321\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00322\ \}}
+\DoxyCodeLine{00323\ }
+\DoxyCodeLine{00324\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00325\ wasm\_invoke\_iiiil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00326\ \{}
+\DoxyCodeLine{00327\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ int64\_t\ arg\_3);}
+\DoxyCodeLine{00328\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00329\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 3));}
+\DoxyCodeLine{00330\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00331\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00332\ \}}
+\DoxyCodeLine{00333\ }
+\DoxyCodeLine{00334\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00335\ wasm\_invoke\_liiil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00336\ \{}
+\DoxyCodeLine{00337\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ int64\_t\ arg\_3);}
+\DoxyCodeLine{00338\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00339\ \ \ \ \ int64\_t\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 3));}
+\DoxyCodeLine{00340\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00341\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00342\ \}}
+\DoxyCodeLine{00343\ }
+\DoxyCodeLine{00344\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00345\ wasm\_invoke\_viiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00346\ \{}
+\DoxyCodeLine{00347\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5);}
+\DoxyCodeLine{00348\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00349\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5));}
+\DoxyCodeLine{00350\ \}}
+\DoxyCodeLine{00351\ }
+\DoxyCodeLine{00352\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00353\ wasm\_invoke\_viiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00354\ \{}
+\DoxyCodeLine{00355\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6);}
+\DoxyCodeLine{00356\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00357\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6));}
+\DoxyCodeLine{00358\ \}}
+\DoxyCodeLine{00359\ }
+\DoxyCodeLine{00360\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00361\ wasm\_invoke\_iiiiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00362\ \{}
+\DoxyCodeLine{00363\ \ \ \ \ \textcolor{keyword}{typedef}\ int\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6,\ \textcolor{keywordtype}{int}\ arg\_7);}
+\DoxyCodeLine{00364\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00365\ \ \ \ \ \textcolor{keywordtype}{int}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 7));}
+\DoxyCodeLine{00366\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00367\ \ \ \ \ *(\textcolor{keywordtype}{int}*)retval\ =\ res;}
+\DoxyCodeLine{00368\ \}}
+\DoxyCodeLine{00369\ }
+\DoxyCodeLine{00370\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00371\ wasm\_invoke\_viiiiiiii\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00372\ \{}
+\DoxyCodeLine{00373\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ \textcolor{keywordtype}{int}\ arg\_2,\ \textcolor{keywordtype}{int}\ arg\_3,\ \textcolor{keywordtype}{int}\ arg\_4,\ \textcolor{keywordtype}{int}\ arg\_5,\ \textcolor{keywordtype}{int}\ arg\_6,\ \textcolor{keywordtype}{int}\ arg\_7);}
+\DoxyCodeLine{00374\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00375\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 2),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 3),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 4),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 5),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 6),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 7));}
+\DoxyCodeLine{00376\ \}}
+\DoxyCodeLine{00377\ }
+\DoxyCodeLine{00378\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00379\ wasm\_invoke\_viil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00380\ \{}
+\DoxyCodeLine{00381\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1,\ int64\_t\ arg\_2);}
+\DoxyCodeLine{00382\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00383\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 2));}
+\DoxyCodeLine{00384\ \}}
+\DoxyCodeLine{00385\ }
+\DoxyCodeLine{00386\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00387\ wasm\_invoke\_vl\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00388\ \{}
+\DoxyCodeLine{00389\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(int64\_t\ arg\_0);}
+\DoxyCodeLine{00390\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00391\ \ \ \ \ func\ (mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 0));}
+\DoxyCodeLine{00392\ \}}
+\DoxyCodeLine{00393\ }
+\DoxyCodeLine{00394\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00395\ wasm\_invoke\_v\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00396\ \{}
+\DoxyCodeLine{00397\ \ \ \ \ \textcolor{keyword}{typedef}\ void\ (*T)(void);}
+\DoxyCodeLine{00398\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00399\ \ \ \ \ func\ ();}
+\DoxyCodeLine{00400\ \}}
+\DoxyCodeLine{00401\ }
+\DoxyCodeLine{00402\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00403\ wasm\_invoke\_dd\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00404\ \{}
+\DoxyCodeLine{00405\ \ \ \ \ \textcolor{keyword}{typedef}\ double\ (*T)(\textcolor{keywordtype}{double}\ arg\_0);}
+\DoxyCodeLine{00406\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00407\ \ \ \ \ \textcolor{keywordtype}{double}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 0));}
+\DoxyCodeLine{00408\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00409\ \ \ \ \ *(\textcolor{keywordtype}{double}*)retval\ =\ res;}
+\DoxyCodeLine{00410\ \}}
+\DoxyCodeLine{00411\ }
+\DoxyCodeLine{00412\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00413\ wasm\_invoke\_ddd\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00414\ \{}
+\DoxyCodeLine{00415\ \ \ \ \ \textcolor{keyword}{typedef}\ double\ (*T)(\textcolor{keywordtype}{double}\ arg\_0,\ \textcolor{keywordtype}{double}\ arg\_1);}
+\DoxyCodeLine{00416\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00417\ \ \ \ \ \textcolor{keywordtype}{double}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 1));}
+\DoxyCodeLine{00418\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00419\ \ \ \ \ *(\textcolor{keywordtype}{double}*)retval\ =\ res;}
+\DoxyCodeLine{00420\ \}}
+\DoxyCodeLine{00421\ }
+\DoxyCodeLine{00422\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00423\ wasm\_invoke\_dddd\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00424\ \{}
+\DoxyCodeLine{00425\ \ \ \ \ \textcolor{keyword}{typedef}\ double\ (*T)(\textcolor{keywordtype}{double}\ arg\_0,\ \textcolor{keywordtype}{double}\ arg\_1,\ \textcolor{keywordtype}{double}\ arg\_2);}
+\DoxyCodeLine{00426\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00427\ \ \ \ \ \textcolor{keywordtype}{double}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 2));}
+\DoxyCodeLine{00428\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00429\ \ \ \ \ *(\textcolor{keywordtype}{double}*)retval\ =\ res;}
+\DoxyCodeLine{00430\ \}}
+\DoxyCodeLine{00431\ }
+\DoxyCodeLine{00432\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00433\ wasm\_invoke\_ddi\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00434\ \{}
+\DoxyCodeLine{00435\ \ \ \ \ \textcolor{keyword}{typedef}\ double\ (*T)(\textcolor{keywordtype}{double}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1);}
+\DoxyCodeLine{00436\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00437\ \ \ \ \ \textcolor{keywordtype}{double}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_darg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0));}
+\DoxyCodeLine{00438\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00439\ \ \ \ \ *(\textcolor{keywordtype}{double}*)retval\ =\ res;}
+\DoxyCodeLine{00440\ \}}
+\DoxyCodeLine{00441\ }
+\DoxyCodeLine{00442\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00443\ wasm\_invoke\_ff\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00444\ \{}
+\DoxyCodeLine{00445\ \ \ \ \ \textcolor{keyword}{typedef}\ float\ (*T)(\textcolor{keywordtype}{float}\ arg\_0);}
+\DoxyCodeLine{00446\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00447\ \ \ \ \ \textcolor{keywordtype}{float}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_farg\ (margs,\ 0));}
+\DoxyCodeLine{00448\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00449\ \ \ \ \ *(\textcolor{keywordtype}{float}*)retval\ =\ res;}
+\DoxyCodeLine{00450\ \}}
+\DoxyCodeLine{00451\ }
+\DoxyCodeLine{00452\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00453\ wasm\_invoke\_fff\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00454\ \{}
+\DoxyCodeLine{00455\ \ \ \ \ \textcolor{keyword}{typedef}\ float\ (*T)(\textcolor{keywordtype}{float}\ arg\_0,\ \textcolor{keywordtype}{float}\ arg\_1);}
+\DoxyCodeLine{00456\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00457\ \ \ \ \ \textcolor{keywordtype}{float}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_farg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_farg\ (margs,\ 1));}
+\DoxyCodeLine{00458\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00459\ \ \ \ \ *(\textcolor{keywordtype}{float}*)retval\ =\ res;}
+\DoxyCodeLine{00460\ \}}
+\DoxyCodeLine{00461\ }
+\DoxyCodeLine{00462\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00463\ wasm\_invoke\_ffff\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00464\ \{}
+\DoxyCodeLine{00465\ \ \ \ \ \textcolor{keyword}{typedef}\ float\ (*T)(\textcolor{keywordtype}{float}\ arg\_0,\ \textcolor{keywordtype}{float}\ arg\_1,\ \textcolor{keywordtype}{float}\ arg\_2);}
+\DoxyCodeLine{00466\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00467\ \ \ \ \ \textcolor{keywordtype}{float}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_farg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_farg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_farg\ (margs,\ 2));}
+\DoxyCodeLine{00468\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00469\ \ \ \ \ *(\textcolor{keywordtype}{float}*)retval\ =\ res;}
+\DoxyCodeLine{00470\ \}}
+\DoxyCodeLine{00471\ }
+\DoxyCodeLine{00472\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00473\ wasm\_invoke\_ffi\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00474\ \{}
+\DoxyCodeLine{00475\ \ \ \ \ \textcolor{keyword}{typedef}\ float\ (*T)(\textcolor{keywordtype}{float}\ arg\_0,\ \textcolor{keywordtype}{int}\ arg\_1);}
+\DoxyCodeLine{00476\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00477\ \ \ \ \ \textcolor{keywordtype}{float}\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_farg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0));}
+\DoxyCodeLine{00478\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00479\ \ \ \ \ *(\textcolor{keywordtype}{float}*)retval\ =\ res;}
+\DoxyCodeLine{00480\ \}}
+\DoxyCodeLine{00481\ }
+\DoxyCodeLine{00482\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00483\ wasm\_invoke\_lill\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00484\ \{}
+\DoxyCodeLine{00485\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1,\ int64\_t\ arg\_2);}
+\DoxyCodeLine{00486\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00487\ \ \ \ \ int64\_t\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 3));}
+\DoxyCodeLine{00488\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00489\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00490\ \}}
+\DoxyCodeLine{00491\ }
+\DoxyCodeLine{00492\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}}
+\DoxyCodeLine{00493\ wasm\_invoke\_lil\ (\textcolor{keywordtype}{void}\ *target\_func,\ MonoInterpMethodArguments\ *margs)}
+\DoxyCodeLine{00494\ \{}
+\DoxyCodeLine{00495\ \ \ \ \ \textcolor{keyword}{typedef}\ int64\_t\ (*T)(\textcolor{keywordtype}{int}\ arg\_0,\ int64\_t\ arg\_1);}
+\DoxyCodeLine{00496\ \ \ \ \ T\ func\ =\ (T)target\_func;}
+\DoxyCodeLine{00497\ \ \ \ \ int64\_t\ res\ =\ func\ (mono\_wasm\_interp\_method\_args\_get\_iarg\ (margs,\ 0),\ mono\_wasm\_interp\_method\_args\_get\_larg\ (margs,\ 1));}
+\DoxyCodeLine{00498\ \ \ \ \ \textcolor{keywordtype}{void}\ *retval\ =\ mono\_wasm\_interp\_method\_args\_get\_retval\ (margs);}
+\DoxyCodeLine{00499\ \ \ \ \ *(int64\_t*)retval\ =\ res;}
+\DoxyCodeLine{00500\ \}}
+\DoxyCodeLine{00501\ }
+\DoxyCodeLine{00502\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}*\ interp\_to\_native\_invokes[]\ =\ \{}
+\DoxyCodeLine{00503\ \ \ \ \ wasm\_invoke\_dd,}
+\DoxyCodeLine{00504\ \ \ \ \ wasm\_invoke\_ddd,}
+\DoxyCodeLine{00505\ \ \ \ \ wasm\_invoke\_dddd,}
+\DoxyCodeLine{00506\ \ \ \ \ wasm\_invoke\_ddi,}
+\DoxyCodeLine{00507\ \ \ \ \ wasm\_invoke\_di,}
+\DoxyCodeLine{00508\ \ \ \ \ wasm\_invoke\_dii,}
+\DoxyCodeLine{00509\ \ \ \ \ wasm\_invoke\_ff,}
+\DoxyCodeLine{00510\ \ \ \ \ wasm\_invoke\_fff,}
+\DoxyCodeLine{00511\ \ \ \ \ wasm\_invoke\_ffff,}
+\DoxyCodeLine{00512\ \ \ \ \ wasm\_invoke\_ffi,}
+\DoxyCodeLine{00513\ \ \ \ \ wasm\_invoke\_i,}
+\DoxyCodeLine{00514\ \ \ \ \ wasm\_invoke\_ii,}
+\DoxyCodeLine{00515\ \ \ \ \ wasm\_invoke\_iii,}
+\DoxyCodeLine{00516\ \ \ \ \ wasm\_invoke\_iiid,}
+\DoxyCodeLine{00517\ \ \ \ \ wasm\_invoke\_iiii,}
+\DoxyCodeLine{00518\ \ \ \ \ wasm\_invoke\_iiiii,}
+\DoxyCodeLine{00519\ \ \ \ \ wasm\_invoke\_iiiiii,}
+\DoxyCodeLine{00520\ \ \ \ \ wasm\_invoke\_iiiiiii,}
+\DoxyCodeLine{00521\ \ \ \ \ wasm\_invoke\_iiiiiiii,}
+\DoxyCodeLine{00522\ \ \ \ \ wasm\_invoke\_iiiiiiiii,}
+\DoxyCodeLine{00523\ \ \ \ \ wasm\_invoke\_iiiiiiiiii,}
+\DoxyCodeLine{00524\ \ \ \ \ wasm\_invoke\_iiiiiiiiiii,}
+\DoxyCodeLine{00525\ \ \ \ \ wasm\_invoke\_iiiiiiiiiiii,}
+\DoxyCodeLine{00526\ \ \ \ \ wasm\_invoke\_iiiiilii,}
+\DoxyCodeLine{00527\ \ \ \ \ wasm\_invoke\_iiiil,}
+\DoxyCodeLine{00528\ \ \ \ \ wasm\_invoke\_iiil,}
+\DoxyCodeLine{00529\ \ \ \ \ wasm\_invoke\_iil,}
+\DoxyCodeLine{00530\ \ \ \ \ wasm\_invoke\_iili,}
+\DoxyCodeLine{00531\ \ \ \ \ wasm\_invoke\_iiliiil,}
+\DoxyCodeLine{00532\ \ \ \ \ wasm\_invoke\_iill,}
+\DoxyCodeLine{00533\ \ \ \ \ wasm\_invoke\_iilli,}
+\DoxyCodeLine{00534\ \ \ \ \ wasm\_invoke\_l,}
+\DoxyCodeLine{00535\ \ \ \ \ wasm\_invoke\_li,}
+\DoxyCodeLine{00536\ \ \ \ \ wasm\_invoke\_lii,}
+\DoxyCodeLine{00537\ \ \ \ \ wasm\_invoke\_liiil,}
+\DoxyCodeLine{00538\ \ \ \ \ wasm\_invoke\_lil,}
+\DoxyCodeLine{00539\ \ \ \ \ wasm\_invoke\_lili,}
+\DoxyCodeLine{00540\ \ \ \ \ wasm\_invoke\_lill,}
+\DoxyCodeLine{00541\ \ \ \ \ wasm\_invoke\_ll,}
+\DoxyCodeLine{00542\ \ \ \ \ wasm\_invoke\_v,}
+\DoxyCodeLine{00543\ \ \ \ \ wasm\_invoke\_vi,}
+\DoxyCodeLine{00544\ \ \ \ \ wasm\_invoke\_vid,}
+\DoxyCodeLine{00545\ \ \ \ \ wasm\_invoke\_vii,}
+\DoxyCodeLine{00546\ \ \ \ \ wasm\_invoke\_viii,}
+\DoxyCodeLine{00547\ \ \ \ \ wasm\_invoke\_viiii,}
+\DoxyCodeLine{00548\ \ \ \ \ wasm\_invoke\_viiiii,}
+\DoxyCodeLine{00549\ \ \ \ \ wasm\_invoke\_viiiiii,}
+\DoxyCodeLine{00550\ \ \ \ \ wasm\_invoke\_viiiiiii,}
+\DoxyCodeLine{00551\ \ \ \ \ wasm\_invoke\_viiiiiiii,}
+\DoxyCodeLine{00552\ \ \ \ \ wasm\_invoke\_viil,}
+\DoxyCodeLine{00553\ \ \ \ \ wasm\_invoke\_vil,}
+\DoxyCodeLine{00554\ \ \ \ \ wasm\_invoke\_vl,}
+\DoxyCodeLine{00555\ \};}
+\DoxyCodeLine{00556\ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ interp\_to\_native\_signatures[]\ =\ \{}
+\DoxyCodeLine{00557\ \ \ \ \ \textcolor{stringliteral}{"{}DD"{}},}
+\DoxyCodeLine{00558\ \ \ \ \ \textcolor{stringliteral}{"{}DDD"{}},}
+\DoxyCodeLine{00559\ \ \ \ \ \textcolor{stringliteral}{"{}DDDD"{}},}
+\DoxyCodeLine{00560\ \ \ \ \ \textcolor{stringliteral}{"{}DDI"{}},}
+\DoxyCodeLine{00561\ \ \ \ \ \textcolor{stringliteral}{"{}DI"{}},}
+\DoxyCodeLine{00562\ \ \ \ \ \textcolor{stringliteral}{"{}DII"{}},}
+\DoxyCodeLine{00563\ \ \ \ \ \textcolor{stringliteral}{"{}FF"{}},}
+\DoxyCodeLine{00564\ \ \ \ \ \textcolor{stringliteral}{"{}FFF"{}},}
+\DoxyCodeLine{00565\ \ \ \ \ \textcolor{stringliteral}{"{}FFFF"{}},}
+\DoxyCodeLine{00566\ \ \ \ \ \textcolor{stringliteral}{"{}FFI"{}},}
+\DoxyCodeLine{00567\ \ \ \ \ \textcolor{stringliteral}{"{}I"{}},}
+\DoxyCodeLine{00568\ \ \ \ \ \textcolor{stringliteral}{"{}II"{}},}
+\DoxyCodeLine{00569\ \ \ \ \ \textcolor{stringliteral}{"{}III"{}},}
+\DoxyCodeLine{00570\ \ \ \ \ \textcolor{stringliteral}{"{}IIID"{}},}
+\DoxyCodeLine{00571\ \ \ \ \ \textcolor{stringliteral}{"{}IIII"{}},}
+\DoxyCodeLine{00572\ \ \ \ \ \textcolor{stringliteral}{"{}IIIII"{}},}
+\DoxyCodeLine{00573\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIII"{}},}
+\DoxyCodeLine{00574\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIIII"{}},}
+\DoxyCodeLine{00575\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIIIII"{}},}
+\DoxyCodeLine{00576\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIIIIII"{}},}
+\DoxyCodeLine{00577\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIIIIIII"{}},}
+\DoxyCodeLine{00578\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIIIIIIII"{}},}
+\DoxyCodeLine{00579\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIIIIIIIII"{}},}
+\DoxyCodeLine{00580\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIILII"{}},}
+\DoxyCodeLine{00581\ \ \ \ \ \textcolor{stringliteral}{"{}IIIIL"{}},}
+\DoxyCodeLine{00582\ \ \ \ \ \textcolor{stringliteral}{"{}IIIL"{}},}
+\DoxyCodeLine{00583\ \ \ \ \ \textcolor{stringliteral}{"{}IIL"{}},}
+\DoxyCodeLine{00584\ \ \ \ \ \textcolor{stringliteral}{"{}IILI"{}},}
+\DoxyCodeLine{00585\ \ \ \ \ \textcolor{stringliteral}{"{}IILIIIL"{}},}
+\DoxyCodeLine{00586\ \ \ \ \ \textcolor{stringliteral}{"{}IILL"{}},}
+\DoxyCodeLine{00587\ \ \ \ \ \textcolor{stringliteral}{"{}IILLI"{}},}
+\DoxyCodeLine{00588\ \ \ \ \ \textcolor{stringliteral}{"{}L"{}},}
+\DoxyCodeLine{00589\ \ \ \ \ \textcolor{stringliteral}{"{}LI"{}},}
+\DoxyCodeLine{00590\ \ \ \ \ \textcolor{stringliteral}{"{}LII"{}},}
+\DoxyCodeLine{00591\ \ \ \ \ \textcolor{stringliteral}{"{}LIIIL"{}},}
+\DoxyCodeLine{00592\ \ \ \ \ \textcolor{stringliteral}{"{}LIL"{}},}
+\DoxyCodeLine{00593\ \ \ \ \ \textcolor{stringliteral}{"{}LILI"{}},}
+\DoxyCodeLine{00594\ \ \ \ \ \textcolor{stringliteral}{"{}LILL"{}},}
+\DoxyCodeLine{00595\ \ \ \ \ \textcolor{stringliteral}{"{}LL"{}},}
+\DoxyCodeLine{00596\ \ \ \ \ \textcolor{stringliteral}{"{}V"{}},}
+\DoxyCodeLine{00597\ \ \ \ \ \textcolor{stringliteral}{"{}VI"{}},}
+\DoxyCodeLine{00598\ \ \ \ \ \textcolor{stringliteral}{"{}VID"{}},}
+\DoxyCodeLine{00599\ \ \ \ \ \textcolor{stringliteral}{"{}VII"{}},}
+\DoxyCodeLine{00600\ \ \ \ \ \textcolor{stringliteral}{"{}VIII"{}},}
+\DoxyCodeLine{00601\ \ \ \ \ \textcolor{stringliteral}{"{}VIIII"{}},}
+\DoxyCodeLine{00602\ \ \ \ \ \textcolor{stringliteral}{"{}VIIIII"{}},}
+\DoxyCodeLine{00603\ \ \ \ \ \textcolor{stringliteral}{"{}VIIIIII"{}},}
+\DoxyCodeLine{00604\ \ \ \ \ \textcolor{stringliteral}{"{}VIIIIIII"{}},}
+\DoxyCodeLine{00605\ \ \ \ \ \textcolor{stringliteral}{"{}VIIIIIIII"{}},}
+\DoxyCodeLine{00606\ \ \ \ \ \textcolor{stringliteral}{"{}VIIL"{}},}
+\DoxyCodeLine{00607\ \ \ \ \ \textcolor{stringliteral}{"{}VIL"{}},}
+\DoxyCodeLine{00608\ \ \ \ \ \textcolor{stringliteral}{"{}VL"{}},}
+\DoxyCodeLine{00609\ \};}
+\DoxyCodeLine{00610\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ interp\_to\_native\_signatures\_count\ =\ 52;}
+\DoxyCodeLine{00611\ }
+\DoxyCodeLine{00612\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}}
+\DoxyCodeLine{00613\ compare\_icall\_tramp\ (\textcolor{keyword}{const}\ \textcolor{keywordtype}{void}\ *key,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{void}\ *elem)}
+\DoxyCodeLine{00614\ \{}
+\DoxyCodeLine{00615\ \ \ \ \ \textcolor{keywordflow}{return}\ strcmp\ (key,\ *(\textcolor{keywordtype}{void}**)elem);}
+\DoxyCodeLine{00616\ \}}
+\DoxyCodeLine{00617\ }
+\DoxyCodeLine{00618\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}*\ }
+\DoxyCodeLine{00619\ mono\_wasm\_interp\_to\_native\_callback\ (\textcolor{keywordtype}{char}*\ cookie)}
+\DoxyCodeLine{00620\ \{}
+\DoxyCodeLine{00621\ \ \ \ \ \textcolor{keywordtype}{void}*\ p\ =\ bsearch\ (cookie,\ interp\_to\_native\_signatures,\ interp\_to\_native\_signatures\_count,\ \textcolor{keyword}{sizeof}\ (\textcolor{keywordtype}{void}*),\ compare\_icall\_tramp);}
+\DoxyCodeLine{00622\ \ \ \ \ \textcolor{keywordflow}{if}\ (!p)}
+\DoxyCodeLine{00623\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ NULL;}
+\DoxyCodeLine{00624\ \ \ \ \ \textcolor{keywordtype}{int}\ idx\ =\ (\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}**)p\ -\/\ (\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}**)interp\_to\_native\_signatures;}
+\DoxyCodeLine{00625\ \ \ \ \ \textcolor{keywordflow}{return}\ interp\_to\_native\_invokes\ [idx];}
+\DoxyCodeLine{00626\ \};}
+
+\end{DoxyCode}

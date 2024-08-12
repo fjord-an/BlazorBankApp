@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_blazor_bank_app_1_1_models_1_1_bank_account.html" title=" " alt="" coords="5,23,197,65"/>
+<area shape="rect" id="Node000001" href="$class_everyday_account.html" title=" " alt="" coords="245,5,369,32"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="212,28,244,24,245,29,212,33"/>
+<area shape="rect" id="Node000002" href="$class_savings_account.html" title=" " alt="" coords="249,56,365,83"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="212,55,249,60,248,65,211,60"/>
+</map>

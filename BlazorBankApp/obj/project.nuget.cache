@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5gFr9kAcq8Ewq7eqbjjti3d1mIOcNNKhCHTFxGNr+e2fPwp7cniWTdihKZs8i6sO9Z2OagmvAYKmZOwgrn1kAg==",
+  "dgSpecHash": "aZSCj0FwG0vUAdlycAYg2bbXqhDj/BQR1TNPU2Bh5hTKCVKXfoXqbF6R0Aop4GoLZOx/IB6kUIpRymHg+22fRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jordan\\OneDrive - MyLearn\\ISE102\\Assessment2\\BlazorBankApp\\BlazorBankApp\\BlazorBankApp.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.3\\microsoft.jsinterop.webassembly.8.0.3.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.7\\microsoft.net.sdk.webassembly.pack.8.0.7.nupkg.sha512",
+    "C:\\Users\\Jordan\\.nuget\\packages\\plantumlclassdiagramgenerator.sourcegenerator\\1.0.0\\plantumlclassdiagramgenerator.sourcegenerator.1.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Jordan\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"

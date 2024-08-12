@@ -1,0 +1,52 @@
+@startuml
+
+class Program {
+    + static Task Main(string[] args)
+}
+
+class EverydayAccount {
+    // Define properties and methods
+}
+
+class SavingsAccount {
+    // Define properties and methods
+}
+
+class BankAccountService {
+    - EverydayAccount _everydayAccount
+    - SavingsAccount _savingsAccount
+    + BankAccountService(EverydayAccount everydayAccount, SavingsAccount savingsAccount)
+    // Define other properties and methods
+}
+
+class AccountService {
+    // Define properties and methods
+}
+
+class UserSessionService {
+    // Define properties and methods
+}
+
+class MainLayout {
+    // Define properties and methods
+}
+
+class NavMenu {
+    // Define properties and methods
+}
+
+class Index {
+    // Define properties and methods
+}
+
+Program --> EverydayAccount : uses
+Program --> SavingsAccount : uses
+Program --> BankAccountService : uses
+Program --> AccountService : uses
+Program --> UserSessionService : uses
+BankAccountService --> EverydayAccount : uses
+BankAccountService --> SavingsAccount : uses
+MainLayout --> NavMenu : uses
+MainLayout --> Index : uses
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+abstract class BankAccount {
+    + AccountNumber : string <<get>> <<set>>
+    + AccountHolder : string <<get>> <<set>>
+    + Balance : double
+    + GetBalance() : double
+    + Deposit(double, BankAccount) : void
+    + Withdraw(double, BankAccount) : bool
+    + Transfer(double, BankAccount, BankAccount) : bool
+}
+class SavingsAccount {
+}
+class EverydayAccount {
+}
+BankAccount <|-- SavingsAccount
+BankAccount <|-- EverydayAccount
+@enduml
