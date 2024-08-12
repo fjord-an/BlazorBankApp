@@ -42,10 +42,10 @@ public class AccountService
     }
 
     // Method to authenticate a user login attempt.
-    public bool Login(string email, string password)
+    public UserInfo? Login(string email, string password)
     {
         // Attempt to find a user with the provided email and password.
-        // Return true if a matching user is found, otherwise return false.
-        return _users.FirstOrDefault(user => user.Email == email && user.Password == password) != null;
+        // if the user is not found, the method will return null. Thus, this will return false by the comparison statement.
+        return _users.FirstOrDefault(user => user.Email == email && user.Password == password);
     }
 }

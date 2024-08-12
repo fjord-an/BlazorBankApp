@@ -89,13 +89,13 @@ else
 
             // Compare the users input with the List of UserInfo in the AccountService instance, injected as: Credentials.
             // The Method returns True if the users input is a valid email/password match, otherwise False if it does not exist.
-            bool user = Credentials.Login(_loginModel.Email, _loginModel.Password);
+            UserInfo user = Credentials.Login(_loginModel.Email, _loginModel.Password);
             
             // if the input was a valid email/password match (not null), execute the following code block
-            if (user)
+            if (user != null)
             {
                 // Call the Login method from UserSessionService to set the user as logged in
-                UserSessionService.Login(_loginModel);
+                UserSessionService.Login(user);
                 // Navigate to /bank page using the Razor NavigationManager injected into this component
                 Navigation.NavigateTo("/bank");
                 // reset the login attempts and login failed boolean

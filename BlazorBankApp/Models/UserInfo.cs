@@ -9,7 +9,7 @@ public class UserInfo
     // https://www.w3schools.com/cs/cs_properties.php
     
     // variable of Username of the user class with type string (text)
-    public string? Username { get; set; } //it is set a nullable as it is not required
+    public string? Username { get; set; } //required field, it cannot be null
     
     // TODO: Provide source:
     // These data annotations within the square brackets are built in C# Client Side Validations for the Fields. They are

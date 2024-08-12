@@ -50,7 +50,7 @@
                 <button class="btn btn-secondary w-100" @onclick="ToEveryday">Transfer to Everyday</button>
             </div>
 
-            <p class="alert-success"><h5 class="mt-3">@_message</h5>
+            <p class="alert-success" /><h5 class="mt-3">@_message</h5>
         </div>
     </div>
     // this message will be displayed after a banking operation is performed
@@ -84,7 +84,7 @@ else
     // in this case we need to check first the user login is logged in and the user balance is set to the initialise value which should be 0
     protected override void OnInitialized()
     {
-        if (UserSessionService.IsLoggedIn)
+        if(UserSessionService.IsLoggedIn)
         {
             _everydayBalance = Everyday.GetBalance();
             _savingsBalance = Savings.GetBalance();
