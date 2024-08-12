@@ -5,6 +5,7 @@ namespace BlazorBankApp.Services
     public class UserSessionService
     {
         // Property to hold the current logged-in user's details
+        // The '?' denotes that the property can be null.
         public UserInfo? CurrentUser { get; private set; }
         // This boolean property checks whether if a current user is logged in or not.
         public bool IsLoggedIn { get; private set; }
