@@ -16,6 +16,15 @@ namespace BlazorBankApp.Services
         // Hamedani, M. (Director). (2015). Delegates — C# Advanced Course [Video recording].
         public event Action? OnLoginStateChanged; // will show account controls if user is logged in
         
+        public UserInfo? GetCurrentUser()
+        {
+            return CurrentUser;
+        }
+        
+        public void SetLoggedInUser(UserInfo userInfo)
+        {
+            CurrentUser = userInfo;
+        }
         
         // Method to log in a user
         public void Login(UserInfo userInfo)

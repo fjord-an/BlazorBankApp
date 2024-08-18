@@ -1,8 +1,7 @@
 @page "/bank"
 <!-- allowing the bank component to access the methods and properties of BankService and UserSessionService classes through dependency injection.-->
-<!-- It essentially injects the object into this component, so that the objects lifetime can be manipulated (persistent in this use case)-->
-@inject EverydayAccount Everyday
-@inject SavingsAccount Savings
+<!-- It injects the object into this component, so that the objects lifetime can be manipulated (persistent in this use case)-->
+@inject AccountService AccountService
 @inject UserSessionService UserSessionService
 <!-- Dependency injection is a technique in which an object receives other objects that it depends on. This results in loosely coupled components, and shared instances of services.
  In Blazor, we can inject services into components, pages, and other classes. It is a simplified way of injecting an object into this component through a constructor, which blazor does behind the scenes
@@ -78,16 +77,34 @@ else
     private double _savingsBalance;
     private double _amount;
     private string? _message; // The message to display after a deposit or withdrawal, with a nullable string type
-
+    
+    private EverydayAccount? Everyday;
+    private SavingsAccount? Savings;
     
     // this method is used to set up initial state and perform necessary logic as soon as the component is initialised
     // in this case we need to check first the user login is logged in and the user balance is set to the initialise value which should be 0
     protected override void OnInitialized()
     {
-        if(UserSessionService.IsLoggedIn)
+        if (UserSessionService.IsLoggedIn)
         {
-            _everydayBalance = Everyday.GetBalance();
-            _savingsBalance = Savings.GetBalance();
+            var userInfo = UserSessionService.GetCurrentUser();
+            if (userInfo != null)
+            {
+                var accounts = AccountService.GetUserAccounts(userInfo.Email) ?? new List<BankAccount>();
+                // using the OfType method to filter the accounts list to ensure that we return either the correct type of account
+                // and assign it to the Everyday and Savings fields. If the account does not exist, create a new account with the user's username
+                // using the null-coalescing operators (??) to assign a default value of 0 to the balance
+                Everyday = accounts.OfType<EverydayAccount>().FirstOrDefault() ?? new EverydayAccount("EA123", userInfo.Username, 0);
+                Savings = accounts.OfType<SavingsAccount>().FirstOrDefault() ?? new SavingsAccount("SA123", userInfo.Username, 0);
+                // if the accounts list does not contain the Everyday and Savings accounts, add them to the list
+                if (!accounts.Contains(Everyday)) accounts.Add(Everyday);
+                if (!accounts.Contains(Savings)) accounts.Add(Savings);
+                // Then save the updated list of accounts to the user's email address using a dictionary key-value pair
+                // The key is the user's email address and the value is the list of accounts, associating the account data
+                // with their email address
+                AccountService.SetUserAccounts(userInfo.Email, accounts);
+                UpdateBalance();
+            }
         }
     }
     
@@ -95,25 +112,27 @@ else
     // it employs the encapsulated methods from the BankService class to perform a deposit and withdraw actions
     private void Deposit()
     {
-        // Execute the Deposit method from BankService class with the amount deposited by the user
-        Everyday.Deposit(_amount, Everyday);
-        // get the new balance value
-        UpdateBalance();
-        // display message based on the calculated amount and new balance from UpdateBalance();
-        _message = $"Deposited {_amount}. New balance is {_everydayBalance}.";
-        // set the amount back to 0 after user click on Deposit button. 
-        _amount = 0;
+        // check if the user is logged in and the user has an everyday account balance before proceeding
+        if (Everyday != null) 
+            // Execute the Deposit method from BankService class with the amount deposited by the user
+            Everyday.Deposit(_amount, Everyday);
+            // get the new balance value
+            UpdateBalance();
+            // display message based on the calculated amount and new balance from UpdateBalance();
+            _message = $"Deposited {_amount}. New balance is {_everydayBalance}.";
+            // set the amount back to 0 after user click on Deposit button. 
+            _amount = 0;
     }
     
     // Just like the Deposit method, this method is used to withdraw an amount from the user's bank account
     private void Withdraw()
     {
-        // first we need to check conditionally to ensure that the user is input an amount or is set to 0 this also check if user is has sufficient funds.
-        if (Everyday.Withdraw(_amount, Everyday))
+        // first we need to check conditionally to ensure that the user is input an amount or is set to 0
+        // also check if user has sufficient funds, and the user is logged in.
+        if (Everyday != null && Everyday.Withdraw(_amount, Everyday))
         {
             // get the assigned balance value from updateBalance method
             UpdateBalance();
-            
             // display message based on the calcuated amount and new balance that already got from UpdateBalance();
             _message = $"Withdrew {_amount}. New balance is {_everydayBalance}.";
         }
@@ -129,9 +148,10 @@ else
     //TODO add comments to the following transfer methods:
     private void ToSavings()
     {
-        if (Savings.Transfer(_amount, Savings, Everyday))
+        if (Everyday != null && Savings != null && Everyday.Transfer(_amount, Savings, Everyday))
         {
             UpdateBalance();
+            
             _message = $"Transferred {_amount} from Everyday Access to Savings.";
         }
         else
@@ -143,7 +163,7 @@ else
     
     private void ToEveryday()
     {
-        if (Everyday.Transfer(_amount, Everyday, Savings))
+        if (Savings != null && Everyday != null && Savings.Transfer(_amount, Everyday, Savings))
         {
             UpdateBalance();
             _message = $"Transferred {_amount} from Savings to Everyday Access.";
@@ -159,7 +179,32 @@ else
     
     private void UpdateBalance()
     {
-        _everydayBalance = Everyday.GetBalance();
-        _savingsBalance = Savings.GetBalance();
+        // check if the user is logged in and the user has and their accounts exist before proceeding
+        if (Everyday != null && Savings != null)
+        {
+            _everydayBalance = Everyday.Balance;
+            _savingsBalance = Savings.Balance;
+            // save the updated balance to the user's account using the SaveBalance method
+            SaveBalance();
+        }
+        else
+        {
+            _everydayBalance = 0;
+            _savingsBalance = 0;
+            _message = "Account(s) not found. Please contact support.";
+        }
+    }
+    
+    private void SaveBalance()
+    // This method will associate the user's bank accounts and balances with their email address and store it in the AccountService
+    {
+        var userInfo = UserSessionService.GetCurrentUser();
+        if (userInfo != null)
+        {
+            // create a list of accounts to store the user's bank accounts
+            // the objects passed into the list must not be null (asserted by the bang operator)
+            var accounts = new List<BankAccount> { Everyday!, Savings! };
+            AccountService.SetUserAccounts(userInfo.Email, accounts);
+        }
     }
 }

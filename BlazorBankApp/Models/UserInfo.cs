@@ -28,4 +28,8 @@ public class UserInfo
     
     [Required]
     public required string Password { get; set; } //it is set as required, it cannot be null
+    
+    // Property to store the user's bank accounts and balances so that each user has a unique BankAccount instance
+    // with their own balances. It is also extensible to allow for future implementations of the bank account types.
+    public List<BankAccount> Accounts { get; set; } = new List<BankAccount>();
 }

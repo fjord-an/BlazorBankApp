@@ -6,19 +6,38 @@ public class AccountService
 {
     // Private list to store user objects (consider using more secure data storage solution in production)
     private readonly List<UserInfo> _users = new();
+    private readonly UserSessionService _userSessionService;
+    private readonly Dictionary<string, List<BankAccount>> _userAccounts = new();
+
     
     // Constructor to initialise the service with a dummy user for testing purposes.
-    public AccountService()
+    public AccountService(UserSessionService userSessionService)
     {
-        // Adding a dummy user for testing
+        // the userSessionService is injected into the AccountService constructor
+        _userSessionService = userSessionService;
+        // Add a dummy user for testing purposes
         _users.Add(new UserInfo
         {
             Username = "Joe.Doe",
             Email = "joe.doe@example.com",
             Age = 30,
             Phone = "1234567890",
-            Password = "Password123"
+            Password = "Password123",
         });
+    }
+    
+    // This method is used to get the BankAccount objects associated with a users email in the dictionary (key-value pair)
+    public List<BankAccount>? GetUserAccounts(string email)
+    {
+        // The GetValueOrDefault method returns the values associated with the key (email) in the dictionary.
+        return _userAccounts.GetValueOrDefault(email);
+    }
+    
+    // This method is used to set the BankAccount objects associated with a users email in the dictionary (key-value pair)
+    public void SetUserAccounts(string email, List<BankAccount> accounts)
+    {
+        // The dictionary is updated with the new list of BankAccount objects associated with the email key.
+        _userAccounts[email] = accounts;
     }
     
     private static bool IsValidUser(UserInfo newUserInfo)
